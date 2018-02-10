@@ -1,0 +1,17 @@
+# Repeat: Tempo eh em minutos!
+Repeat:
+  CMD1:
+    Tempo: 10
+    Comandos:
+    - /meurepeat start
+Comandos:
+  CMD1:
+    Dia: Sabado
+    Hora: '17:00'
+    Comandos:
+    - /meuevento iniciar
+  CMD2:
+    Dia: 'Sabado Domingo'
+    Hora: '17:00 18:00'
+    Comandos:
+    - /meuevento iniciar

@@ -1,0 +1,34 @@
+## BYTE Companies config File
+
+## Welcome to the companies plugin designed for www.byte.org.uk be careful how you edit the following details use a yaml editor if you do have to edit this file.
+
+
+
+################## world settings #########################
+
+##Enabled worlds
+worlds:
+  - world
+  - world_nether
+  - world_the_end
+
+
+############## company timers check settings ###############
+
+##Time in ticks between each payday (84000 is 7 mc days or 1 week)
+timeBetweenChecks: 84000
+
+##number of paydays to auto save all data 
+autoSaveInterval: 5
+
+
+############## Offline Payment Settings ###############
+
+##pay players even if they are offline? true or false
+payOfflinePlayers: false
+
+
+######################### COSTS  ######################
+
+##How much it costs to create a shop sign - set to 0 if no cost
+shopCreationCost: 100

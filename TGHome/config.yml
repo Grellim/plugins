@@ -1,0 +1,37 @@
+#Configuracao de Home.
+Home:
+  #Permissao para poder setar, deletar ou ir a uma home.
+  Permissao: "ahome.home.usar"
+  Sem_Permissao: "&6[AHome] &cVocê não tem permissão para isso."
+  Erro: "&6[AHome] &cHouve algum erro, contate a staff."
+  #Permissao para os staffers poderem ver as homes dos players.
+  Permissao_Staff: "ahome.ver.outro"
+  Use: "&6[AHome] &cVeja o tutorial de teleporte."
+  Teleportado: "&6[AHome] &eTeleportado..."
+  Player_Sem_Home: "&6[AHome] &cO player não contem nenhuma home."
+  Nao_Existe: "&6[AHome] &cHome inexistente."
+  Nao_Aberta: "&6[AHome] &8{dono}&7não habilitou a visita para a home&b {home}&7."
+  Use_1: "&6[AHome] &7Use: &8/delhome &3[NomeDaHome]&7."
+  Sem_Home: "&6[AHome] &cVocê não possui nenhuma home setada ainda."
+  Padrao_Setada: "&6[AHome] &7Home padrao setada com sucesso."
+  Setada: "&6[AHome] &7Home &b{home}&7 foi setada com sucesso."
+  Deletada: "&6[AHome] &7Home &b{home}&7 foi deletada com sucesso."
+  Lista: "&6[AHome] &7Homes: &8{homes}"
+  #Permissao para poder setar a loja.
+  Permissao_Publico: "ahome.homepublica.usar"
+  Sem_Permissao_Publico: "&6[AHome] &cApenas jogadores vips podem usar esse comando."
+  Use_2: "&6[AHome] &7Use: &8/loja &3[NomeDaHome]&7."
+  Home_Aberta: "&6[AHome] &7A home &b{home}&7 está pública."
+  Use_3: "&6[AHome] &7Use: &8/delloja &3[NomeDaHome]&7."
+  Home_Fechada: "&6[AHome] &7A home &b{home}&7 não está pública!"
+  Permissao_Membro_Limite: "ahome.limite.membro"
+  Max_Home_Membro: 15
+  Permissao_VIP_Limite: "ahome.limite.vip"
+  Max_Home_VIP: 25
+  Permissao_Staff_Limite: "ahome.limite.staff"
+  Max_Home_Staff: 100
+  Alcancou_O_Limite: "&6[AHome] &cLimite de home alcançado - &6{limite}&c."
+  #Configuracao DELAY.
+  Permissao_Ignorar_Delay: "ahome.bypass.delay"
+  Aguarde: "&6[AHome] &eAguarde &35 &esegundos, para ser teleportado!"
+  Delay: 5

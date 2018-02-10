@@ -1,0 +1,6 @@
+options:
+  seconds-until-public: 10
+  enabled-worlds:
+  - world1
+  - world2
+  - world3

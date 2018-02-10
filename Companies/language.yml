@@ -1,0 +1,153 @@
+##language file for companies plugin
+
+##prefix for all chat messages
+prefix: [Company]
+
+
+################# Company owner messages ##################
+
+##company creation
+
+
+denyStartCompanyMessage: You do not have permission to start a new company
+
+companyAlreadyExistsMessage: That company already exists.
+
+companyCreatedMessage: has sucessfully started business.
+
+alreadyPartOfACompanyMessage: You are already part of a company.
+
+companyDissolvedMessage: has stopped trading and has been dissolved
+
+playerNotPartOfYourCompanyMessage: is not part of your company
+
+playerNotEmployedMessage: is not employed by anyone
+
+
+
+##bank and info
+
+
+
+companyNumberOfEmployeesIsMessage: Your companys number of employees is 
+
+companyBankBalanceIsMessage: Your company bank balance is 
+
+companyNextWageBillIsMessage: Your companys next wage bill is
+
+companyCannotAffordPaymentMessage: Your company cannot afford the payment!
+
+YourCompanyCannotAffordToPayEmployeeMessage: Your company cannot afford to pay an employee
+
+youDoNotHaveEnoughMoneyMessage: You do not have enough money, you need 
+
+youHaveDepositedMoneyMessage: You have deposited money into your company bank, to the value of
+
+youHaveWithdrawnMoneyMessage: You have withdrawn money from your company bank, to the value of
+
+paymentCompleteMessage: Payment has been completed
+
+
+
+## setting company details 
+
+companyTradingSetMessage: Your company trading status has been set to
+
+companyHqSetMessage: Your company HQ has been set to
+
+companyHqCostSetMessage: Your company HQ Tp cost has been set to
+
+companyWageTypeSetMessage: Your company wage type has been set to
+
+companyDescriptionSetMessage: Your company description has been set to
+
+hasBeenSetMessage: has been set.
+
+
+##shops setup 
+
+companyShopCreatedMessage: Company shop has been created successfully, stock your chest to sell items for price shown on sign.
+
+placeShopSignAfterChestMessage: To create a shop you must place a chest first then place the company sign above.
+
+companyShopRemovedMessage: Your company shop has been removed.
+
+
+##setting employee details
+
+
+employeeWageSetMessage: s wage has been set to 
+
+employeeRankSetMessage: s rank has been set to 
+
+employeeSackedMessage: has been sacked, with redundancy pay of
+
+playerAlreadyEmployedMessage: is already employed by a company.
+
+youHaveEmployedPlayerMessage: You have sucessfully employed
+
+youHaveBeenOfferedAJobMessage: You have been offered a job by
+
+youHaveAcceptedTheJobOfferMessage: you have accepted the job offer from 
+
+youHaveDeclinedTheJobOfferMessage: you have declined the job offer from 
+
+youDoNotHaveAnyJobOffersMessage: you do not have any job offers!
+
+##misc employer messages
+
+
+employeeHasResignedMessage: has resigned.
+
+ownersCannotLeaveCompanyMessage: Owners cannot leave their company, assign another owner or disband your company.
+
+youHaveOfferedAJobMessage: You have sent a job offer to 
+
+hasAcceptedYourJobOfferMessage: has accepted your job offer.
+
+hasDeclinedYourJobOfferMessage: has declined your job offer.
+
+#################### Player messages #####################
+
+
+##messages for players and employees
+
+
+companyCannotPayYouMessage: Your company cannot afford to pay you
+
+youHaveBeenPaidMessage: You have been paid
+
+youHaveBeenEmployedByMessage: You have just been employed by
+
+youDoNotBelongToThisCompanyMessage: You do not belong to this company
+
+youAreNotTheCompanyOwnerMessage: You are not the company owner.
+
+youHaveBeenSackedMessage:  You have been sacked from your company
+
+companyHasPaidYouDividendMessage: you have been paid a dividend of
+
+youHaveLeftYourCompanyMessage: You have left
+
+noCompanyMessage: you are currently unemployed
+
+
+
+################ Miscellaneous Messages ################
+
+
+itIsPaydayMessage: It is payday!
+
+companyDoesNotexistMessage: does not exist
+
+noPermissionsMessage: You do not have permission to do this
+
+mustBeANumberMessage: Value must be a positive number.
+
+companyHasCeasedTradingMessage: This company has ceased trading
+
+youHavePurchasedGoodsMessage: You have purchased some goods for
+
+youHaveBeenTeleportedForMessage: You have been transported to the company hq at the cost of 
+
+travelToHqCostIsMessage: Travelling to this company HQ will cost

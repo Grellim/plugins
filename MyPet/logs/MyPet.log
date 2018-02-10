@@ -1,0 +1,59 @@
+02-08-2018 21:30 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-08-2018 21:30 [INFO] [MyPet] No Update available.
+02-08-2018 21:30 [INFO] [MyPet] mcMMO (1.5.09-SNAPSHOT) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] PreciousStones (10.7.2) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] PvPDiffTimer (1.4.4) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] Residence (4.7.5.0) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] SkillAPI (3.103) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] Vault (1.6.1) (Economy: iConomy 7) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] WorldGuard (6.2.1;84bc322) hook activated.
+02-08-2018 21:30 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+02-08-2018 21:30 [INFO] [MyPet] Default skilltree file created (default.st).
+02-08-2018 21:30 [INFO] [MyPet] No groups found. Everything will be in 'default' group.
+02-08-2018 21:30 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-08-2018 21:30 [INFO] [MyPet] added world to 'default' group.
+02-08-2018 21:30 [INFO] [MyPet] added world_nether to 'default' group.
+02-08-2018 21:30 [INFO] [MyPet] added world_the_end to 'default' group.
+02-08-2018 21:30 [INFO] [MyPet] -------------------------------------------------
+02-08-2018 21:30 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-08-2018 22:42 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-08-2018 22:43 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-08-2018 22:43 [INFO] [MyPet] No Update available.
+02-08-2018 22:43 [INFO] [MyPet] mcMMO (1.5.09-SNAPSHOT) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] PreciousStones (10.7.2) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] PvPDiffTimer (1.4.4) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] Residence (4.7.5.0) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] SkillAPI (3.103) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] Towny (0.92.0.0) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] Vault (1.6.1) (Economy: iConomy 7) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] WorldGuard (6.2.1;84bc322) hook activated.
+02-08-2018 22:43 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+02-08-2018 22:43 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-08-2018 22:43 [INFO] [MyPet]    added 'world' to 'default'
+02-08-2018 22:43 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-08-2018 22:43 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-08-2018 22:43 [INFO] [MyPet] -------------------------------------------------
+02-08-2018 22:43 [INFO] [MyPet] version 2.3.3-b1205 ENABLED
+02-09-2018 16:51 [INFO] [MyPet] added Oficial to 'default' group.
+02-10-2018 08:18 [INFO] [MyPet] Disabling MyPet v2.3.3
+02-10-2018 08:20 [INFO] [MyPet] Enabling MyPet v2.3.3
+02-10-2018 08:20 [INFO] [MyPet] No Update available.
+02-10-2018 08:20 [INFO] [MyPet] mcMMO (1.5.09-SNAPSHOT) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] PreciousStones (10.7.2) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] ProtocolLib (4.3.0) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] PvPDiffTimer (1.4.4) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] Residence (4.7.5.0) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] SkillAPI (3.103) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] Towny (0.92.0.0) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] Vault (1.6.1) (Economy: iConomy 7) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] WorldGuard (6.2.1;84bc322) hook activated.
+02-10-2018 08:20 [INFO] [MyPet] Compat mode for v1_12_R1 loaded.
+02-10-2018 08:20 [INFO] [MyPet] --- Loading WorldGroups ---------------------------
+02-10-2018 08:20 [INFO] [MyPet]    added 'world' to 'default'
+02-10-2018 08:20 [INFO] [MyPet]    added 'world_nether' to 'default'
+02-10-2018 08:20 [INFO] [MyPet]    added 'world_the_end' to 'default'
+02-10-2018 08:20 [INFO] [MyPet]    added 'Oficial' to 'default'
+02-10-2018 08:20 [INFO] [MyPet] -------------------------------------------------
+02-10-2018 08:20 [INFO] [MyPet] version 2.3.3-b1205 ENABLED

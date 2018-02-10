@@ -1,0 +1,18 @@
+#####################################################################################
+#                                    Plugin KwDesencantar                           #
+#                               E-mail: kewilleen@outlook.com                       #
+#####################################################################################
+Desencantar:
+  Check_Update: true
+  Permissao: "kwdesencantar.vip"
+  Sem_Permissao: "&cDesculpe, mas, você não tem permissão para utilizar este comando!"
+  #Se o jogador não tiver nada em mãos
+  Nada: "&cDesculpe, mas, você deve ter um item em mãos para poder desencantar!"
+  #Se o item em mãos não possuírem encantamentos
+  Sem_Enchant: "&cDesculpe, mas, este item não possuí encantamentos!"
+  #Valor para desencantar
+  Valor: 1000
+  #Se não tiver dinheiro para desencantar
+  Sem_Dinheiro: "&cDesculpe, mas, você necessita de {coins} coin(s) para poder desencantar esse item!"
+  #Mensagem de quando todas as possibilidades acima estiverem erradas
+  Removido: "&aSucesso, desencantado com sucesso!"

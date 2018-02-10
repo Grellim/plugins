@@ -1,0 +1,33 @@
+#
+# PowerSuperAntiProxy - Bloqueie Proxies + Bot Attacks!
+#
+# Criado por MrPowerGamerBR
+#
+# Website: http://mrpowergamerbr.com/
+# SparklyPower: http://sparklypower.net/
+#
+BuscarDeSites: true
+MensagemDeKick: "§cUso de Proxy!\n\n§cDesative o Proxy antes de conectar!"
+UsarProtocolLib: true
+BloquearIPsDoDeathBot: true
+UsarASkidban: true
+SitesBuscados:
+    - "http://lori.mrpowergamerbr.com/search.txt"
+BloquearHostnamesFeios: true
+HostnamesBloqueados:
+    # HotspotShield
+    - "anchorfree"
+    # IP Redator
+    - "ipredator.se"
+    # PixelFucker
+    - "pixelfucker.org"
+    # TheRemailer
+    - "theremailer.net"
+    # Tor Exit
+    - "tor-exit"
+    - "torexit"
+    - "exitpoint"
+BloquearIPsDaOVH: true
+UsarStopForumSpam: true
+# Coloque -1 caso você queria desativar isso
+BloquearContasPorIP: 3

@@ -1,0 +1,17 @@
+Homes:
+  _Gre:
+    Padrao:
+      Mundo: world
+      X: 132.5
+      Y: 66.80948674189209
+      Z: 256.5
+      Yaw: 0.0
+      Pitch: 0.0
+    loja1:
+      Mundo: world
+      X: 132.5
+      Y: 70.36932127891106
+      Z: 253.30000001192093
+      Yaw: 0.0
+      Pitch: 0.0
+      Aberta: true

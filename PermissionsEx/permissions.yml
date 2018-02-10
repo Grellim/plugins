@@ -1,0 +1,77 @@
+groups:
+  Membro:
+    options:
+      default: true
+    permissions:
+    - herochat.speak.Local
+  Vipporumdia:
+    options:
+      prefix: '&a[VIP]'
+    - automaticinventory.user.*
+    inheritance:
+    - Membro
+  Vip:
+    options:
+      prefix: '&8[&6VIP&8]'
+    permissions:
+    - tgviplimite.usar
+    inheritance:
+    - Vipporumdia
+  Vip+:
+    options:
+      prefix: '&8[&6VIP+&8]'
+    permissions:
+    - modifyworld.*
+    inheritance:
+    - Vip
+  Vip++:
+    options:
+      prefix: '&8[&6VIP++&8]'
+    permissions:
+    - modifyworld.*
+    inheritance:
+    - Vip+
+  Epic:
+    options:
+      prefix: '&8[&2Epic&8]'
+    permissions:
+    - herochat.color.Megafone
+    inheritance:
+    - Vip++
+  Ajudante:
+    options:
+      prefix: '&c[HELP]'
+    permissions:
+    - modifyworld.*
+    inheritance:
+    - Membro
+  Moderador:
+    options:
+      prefix: '&3[MOD]'
+    permissions:
+    - modifyworld.*
+    inheritance:
+    - Vip
+    - Ajudante
+  Administrador:
+    options:
+      prefix: '&5[ADM]'
+    permissions:
+    - modifyworld.*
+    inheritance:
+    - Vip++
+    - Moderador
+  Dono:
+    options:
+      prefix: '&9[CEO]'
+    permissions:
+    - permissions.*
+    inheritance:
+    - Administrador
+schema-version: 1
+users:
+  d820f75e-6f9b-3ff4-b8fb-595a91e907db:
+    group:
+    - Dono
+    options:
+      name: _Gre

@@ -1,0 +1,10 @@
+general:
+  reloadMessage: '&eSuccesfully reloaded CommandTimer!'
+  noPermMessage: '&4You do not have access to that command.'
+settings:
+  tasks:
+    '1':
+      commands:
+      - say Change this message in the plugin configuration
+      seconds: 60
+      onload: true

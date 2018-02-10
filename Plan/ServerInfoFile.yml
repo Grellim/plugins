@@ -1,0 +1,7 @@
+# Changing the UUID in this file will make Plan regard your server as a completely new server
+# Thread with caution.
+Server:
+    UUID: 5d84ecf1-acfc-3080-9c5d-ec5cea2a6e31
+Bungee:
+    WebAddress: ''
+    Fail: 1

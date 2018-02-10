@@ -1,0 +1,45 @@
+[02-08 21:30:09]: [INFO] Created column 'regdate' and set the current timestamp, 1518143409591, to all 0 rows
+[02-08 21:30:09]: [INFO] SQLite Setup finished
+[02-08 21:30:09]: [INFO] Hooked into PermissionsEx!
+[02-08 21:30:09]: [INFO] Hooked successfully into Essentials
+[02-08 21:30:09]: [INFO] Hooked successfully into Multiverse-Core
+[02-08 21:30:09]: [INFO] Essentials spawn file not found: '/home/minecraft/multicraft/servers/server1745/plugins/Essentials/spawn.yml'
+[02-08 21:30:10]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[02-08 21:30:10]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[02-08 21:30:10]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[02-08 22:29:28]: [FINE] _Gre registered 187.19.0.57
+[02-08 22:29:28]: [FINE] _Gre logged in!
+[02-08 22:33:16]: [FINE] _Gre logged in!
+[02-08 22:41:12]: [FINE] _Gre logged in!
+[02-08 22:42:10]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-08 22:43:05]: [INFO] SQLite Setup finished
+[02-08 22:43:05]: [INFO] Hooked into PermissionsEx!
+[02-08 22:43:05]: [INFO] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[02-08 22:43:05]: [INFO] Hooked successfully into Essentials
+[02-08 22:43:05]: [INFO] Hooked successfully into Multiverse-Core
+[02-08 22:43:05]: [INFO] Essentials spawn file not found: '/home/minecraft/multicraft/servers/server1745/plugins/Essentials/spawn.yml'
+[02-08 22:43:05]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[02-08 22:43:05]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[02-08 22:43:05]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[02-08 22:45:24]: [FINE] _Gre logged in!
+[02-08 22:49:51]: [FINE] _Gre logged in!
+[02-09 11:36:59]: [FINE] _Gre logged in!
+[02-09 14:32:52]: [FINE] _Gre logged in!
+[02-09 15:01:13]: [FINE] _Gre logged in!
+[02-09 18:13:53]: [FINE] _Gre logged in!
+[02-09 18:13:58]: [FINE] ChupChup_ registered 179.228.19.118
+[02-09 18:13:58]: [FINE] ChupChup_ logged in!
+[02-09 22:17:09]: [FINE] _Gre logged in!
+[02-10 07:48:41]: [FINE] _Gre logged in!
+[02-10 08:16:31]: [FINE] _Gre logged in!
+[02-10 08:18:54]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[02-10 08:20:06]: [INFO] SQLite Setup finished
+[02-10 08:20:06]: [INFO] Not hooking into PermissionsEx because it's disabled!
+[02-10 08:20:06]: [INFO] Hooked into Vault!
+[02-10 08:20:06]: [INFO] [LICENSE] This product uses data from the GeoLite API created by MaxMind, available at http://www.maxmind.com
+[02-10 08:20:06]: [INFO] Hooked successfully into Essentials
+[02-10 08:20:06]: [INFO] Hooked successfully into Multiverse-Core
+[02-10 08:20:06]: [INFO] Essentials spawn file not found: '/home/minecraft/multicraft/servers/server1745/plugins/Essentials/spawn.yml'
+[02-10 08:20:06]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[02-10 08:20:06]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[02-10 08:20:06]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
