@@ -1,0 +1,152 @@
+##language file for companies plugin
+
+##prefix for all chat messages
+prefix: [Empresa]
+
+
+################# Company owner messages ##################
+
+##company creation
+
+
+denyStartCompanyMessage: "§cVocê não tem permisão para começar uma nova Empresa!"
+
+companyAlreadyExistsMessage: "§cEsta Empresa já existe!"
+companyCreatedMessage: "§e criada com sucesso!"
+
+alreadyPartOfACompanyMessage: "§eVocê já tem uma empresa!"
+
+companyDissolvedMessage: "§eParou de negociar e foi dissolvido"
+
+playerNotPartOfYourCompanyMessage: "§cNão é parte de sua empresa"
+
+playerNotEmployedMessage: "§cNão é empregado por ninguém"
+
+
+
+##bank and info
+
+
+
+companyNumberOfEmployeesIsMessage: "§eO número de funcionários de sua empresa é§6 "
+
+companyBankBalanceIsMessage: "§eO saldo bancário da sua empresa é§6 "
+
+companyNextWageBillIsMessage: "§eA próxima conta salarial da sua empresa é§6 "
+
+companyCannotAffordPaymentMessage: "§eSua empresa não pode pagar o pagamento!"
+
+YourCompanyCannotAffordToPayEmployeeMessage: "§eSua empresa não pode pagar um empregado!"
+
+youDoNotHaveEnoughMoneyMessage: "§eVocê não tem dinheiro suficiente, você precisa de "
+
+youHaveDepositedMoneyMessage: "§eVocê depositou dinheiro no banco da sua empresa, ao valor de§6 "
+
+youHaveWithdrawnMoneyMessage: "§eVocê retirou dinheiro do banco da sua empresa, para o valor de§6 "
+
+paymentCompleteMessage: "§eO pagamento foi concluído!"
+
+
+
+## setting company details 
+
+companyTradingSetMessage: "§eO status de negociação da sua empresa foi configurado para§6 "
+
+companyHqSetMessage: "§eO HQ da sua empresa foi configurado para§6 "
+
+companyHqCostSetMessage: "§eO custo da sua empresa foi definido para§6 "
+
+companyWageTypeSetMessage: "§eO tipo de saldo da sua empresa foi definido como§6 "
+
+companyDescriptionSetMessage: "§eA descrição da sua empresa foi configurada para§6 "
+
+hasBeenSetMessage: "§e foi definido!"
+
+
+##shops setup 
+
+companyShopCreatedMessage: "§eA loja da empresa foi criada com sucesso, armazene seu cofre para vender itens pelo preço mostrado na placa."
+
+placeShopSignAfterChestMessage: "§aPara criar uma loja, você deve colocar um baú primeiro e colocar a placa da empresa acima!"
+
+companyShopRemovedMessage: "§cA loja da sua empresa foi removida!"
+
+
+##setting employee details
+
+
+employeeWageSetMessage: "§eO salário de s foi definido como "
+
+employeeRankSetMessage: "§eA classificação s foi definida como "
+
+employeeSackedMessage: "§cFoi demitido, com pagamento de redundância de "
+
+playerAlreadyEmployedMessage: "§eVocê já está empregado por uma empresa."
+
+youHaveEmployedPlayerMessage: "§eVocê empregou com sucesso"
+
+youHaveBeenOfferedAJobMessage: "§eTem ofereceram um emprego de§6 "
+
+youHaveAcceptedTheJobOfferMessage: "§eVocê aceitou a oferta de emprego de§6 "
+
+youHaveDeclinedTheJobOfferMessage: "§eVocê recusou a oferta de emprego de§6 "
+
+youDoNotHaveAnyJobOffersMessage: "§cVocê não possui ofertas de emprego!"
+
+##misc employer messages
+
+
+employeeHasResignedMessage: Você se demitiu-se
+
+ownersCannotLeaveCompanyMessage: Os proprietários não podem deixar sua empresa, atribuir outro proprietário ou dissolver sua empresa.
+
+youHaveOfferedAJobMessage: Você enviou uma oferta de trabalho para
+
+hasAcceptedYourJobOfferMessage: Aceitou sua oferta de trabalho!
+
+hasDeclinedYourJobOfferMessage: Não aceitou sua oferta de trabalho!
+
+#################### Player messages #####################
+
+
+##messages for players and employees
+
+
+companyCannotPayYouMessage: "§cSua empresa não pode pagar você"
+
+youHaveBeenPaidMessage: "§eVocê foi pago!"
+
+youHaveBeenEmployedByMessage: "§eVocê acabou de ser empregado por§6 "
+
+youDoNotBelongToThisCompanyMessage: "§cVocê não pertence a esta Empresa!"
+
+youAreNotTheCompanyOwnerMessage: "§cVocê não é o dono da empresa!"
+
+youHaveBeenSackedMessage: "§cVocê foi demitido da sua empresa!"
+
+companyHasPaidYouDividendMessage: "§eVocê recebeu um dividendo de§6 "
+
+youHaveLeftYourCompanyMessage: "§cVocê saiu da sua empresa!"
+
+noCompanyMessage: "§eVocê está atualmente desempregado!"
+
+
+
+################ Miscellaneous Messages ################
+
+
+itIsPaydayMessage: "§eÉ dia de pagamento!"
+
+companyDoesNotexistMessage: "§cEste emprego não existe!"
+
+noPermissionsMessage: "§cVocê não tem permisão para isto!"
+
+mustBeANumberMessage: "§cO Valor deve ser um numero positivo!"
+
+companyHasCeasedTradingMessage: "§eEsta empresa cessou a negociação"
+
+youHavePurchasedGoodsMessage: "§eVocê comprou alguns produtos para§6 "
+
+youHaveBeenTeleportedForMessage: "§eVocê foi transportado para a empresa sede ao custo de§6 "
+
+travelToHqCostIsMessage: "§cViajar para a sede dessa empresa custará§6 "
