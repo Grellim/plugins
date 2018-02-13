@@ -1,73 +1,131 @@
 groups:
-  Membro:
+  Visitante:
     options:
       default: true
+      rank: '1'
+      prefix: '&8'
     permissions:
-    - herochat.speak.Local
-  Vipporumdia:
+    - modifyworld.*
+    - multiverse.core.tp.self
+    - ultracosmetics.openmenu
+    - ultracosmetics.command.clear
+    - ultracosmetics.command.menu
+    worlds:
+      Survival:
+        permissions:
+        - -modifyworld.*
+      Nether:
+        permissions:
+        - -modifyworld.*
+      TheEnd:
+        permissions:
+        - -modifyworld.*
+  Membro:
     options:
-      prefix: '&a[VIP]'
-    - automaticinventory.user.*
+      rank: '2'
+      prefix: '&f'
+    permissions:
+    - modifyworld.*
+    worlds:
+      TheEnd:
+        permissions:
+        - -modifyworld.*
+    inheritance:
+    - Visitante
+  Doador:
+    options:
+      rank: '3'
+      prefix: '&e&lDOADOR  &r'
+    permissions:
+    - ultracosmetics.emotes.cry
+    - ultracosmetics.emotes.angry
+    - ultracosmetics.emotes.happy
+    worlds:
+      TheEnd:
+        permissions:
+        - modifyworld.*
     inheritance:
     - Membro
-  Vip:
+  Empreendedor:
     options:
-      prefix: '&8[&6VIP&8]'
+      rank: '4'
+      prefix: '&e&lEMPREENDEDOR &r'
     permissions:
-    - tgviplimite.usar
+    - permissions.*
     inheritance:
-    - Vipporumdia
-  Vip+:
+    - Doador
+  Socio:
     options:
-      prefix: '&8[&6VIP+&8]'
+      rank: '5'
+      prefix: '&e&lSOCIO &r'
     permissions:
-    - modifyworld.*
+    - permissions.*
     inheritance:
-    - Vip
-  Vip++:
+    - Empreendedor
+  Financiador:
     options:
-      prefix: '&8[&6VIP++&8]'
+      rank: '6'
+      prefix: '&e&lFINANCIADOR &r'
     permissions:
-    - modifyworld.*
+    - permissions.*
     inheritance:
-    - Vip+
-  Epic:
+    - Socio
+  Empresario:
     options:
-      prefix: '&8[&2Epic&8]'
+      rank: '7'
+      prefix: '&e&lEMPRESARIO &r'
     permissions:
-    - herochat.color.Megafone
+    - permissions.*
     inheritance:
-    - Vip++
+    - Financiador
+  Gerente:
+    options:
+      rank: '8'
+      prefix: '&e&lGERENTE &r'
+    permissions:
+    - permissions.*
+    inheritance:
+    - Empresario
   Ajudante:
     options:
-      prefix: '&c[HELP]'
+      prefix: '&a[HELPER]'
+      rank: '9'
     permissions:
-    - modifyworld.*
+    - permissions.*
     inheritance:
     - Membro
   Moderador:
     options:
-      prefix: '&3[MOD]'
+      prefix: '&D[MOD]'
+      rank: '10'
     permissions:
-    - modifyworld.*
+    - permissions.*
     inheritance:
-    - Vip
     - Ajudante
   Administrador:
     options:
-      prefix: '&5[ADM]'
+      prefix: '&D[ADMIN]'
+      rank: '11'
     permissions:
-    - modifyworld.*
+    - permissions.*
     inheritance:
-    - Vip++
     - Moderador
-  Dono:
+  Diretor:
     options:
-      prefix: '&9[CEO]'
+      prefix: '&9[DIRETOR]'
+      rank: '12'
     permissions:
     - permissions.*
     inheritance:
     - Administrador
+  Dono:
+    options:
+      prefix: '&9[CEO]'
+      rank: '13'
+    permissions:
+    - permissions.*
+    inheritance:
+    - Diretor
 schema-version: 1
 users:
   d820f75e-6f9b-3ff4-b8fb-595a91e907db:
