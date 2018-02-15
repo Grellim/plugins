@@ -205,84 +205,84 @@ use-guild-bank: false
 
 buff:
   name:
-    haste: "Substance of the Redmod Graff"
-    speed: "Blessing of the Cheetah"
-    fire-resistance: "Scales of the Dragon"
-    night-vision: "Eyes of the Lurking Demon"
-    invisibility: "Feet of the Ghostly Walker"
-    strength: "Mighty Strength of the Pouncing Lion"
-    jump: "Bounce of the Quick Witted Rabbit"
-    water-breathing: "Lungs of the Albino Shark"
-    regeration: "Integrity of the Mystic Witch"
+    haste: "Substância do Redmod Graff"
+    speed: "Bênção da Chita"
+    fire-resistance: "Escamas do Dragão"
+    night-vision: "Olho do Demónio Espreitadela"
+    invisibility: "Pés do caminhante fantasma"
+    strength: "Força Poderosa do Leão Pouncing"
+    jump: "Pulo do Coelho"
+    water-breathing: "Pulmões do tubarão albino"
+    regeration: "Integridade da bruxa mística"
   price:
-    haste: 60
-    speed: 60
-    fire-resistance: 60
-    night-vision: 60
-    invisibility: 60
-    strength: 60
-    jump: 60
-    water-breathing: 60
-    regeration: 60
+    haste: 3500
+    speed: 7000
+    fire-resistance: 3000
+    night-vision: 4000
+    invisibility: 6000
+    strength: 7500
+    jump: 6500
+    water-breathing: 1200
+    regeration: 3400
   time:
-    haste: 60
-    speed: 60
-    fire-resistance: 60
-    night-vision: 60
-    invisibility: 60
-    strength: 60
-    jump: 60
-    water-breathing: 60
-    regeration: 60
+    haste: 120
+    speed: 120
+    fire-resistance: 120
+    night-vision: 120
+    invisibility: 120
+    strength: 120
+    jump: 120
+    water-breathing: 120
+    regeration: 120
   amplifier:
-    haste: 1
-    speed: 1
-    fire-resistance: 1
-    night-vision: 1
-    invisibility: 1
-    strength: 1
-    jump: 1
-    water-breathing: 1
-    regeration: 1
+    haste: 2
+    speed: 2
+    fire-resistance: 2
+    night-vision: 2
+    invisibility: 2
+    strength: 2
+    jump: 2
+    water-breathing: 2
+    regeration: 2
   description:
-    price: "&bPrice: "
-    length: "&bLength of Buff: "
+    price: "&bPreço: "
+    length: "&bComprimento de Buff: "
     haste:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bmining speed for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bvelocidade de mineração por um certo período de tempo."
     speed:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bmovement speed for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bvelocidade de movimento por um certo período de tempo."
     fire-resistance:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&fire resistance for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&resistência ao fogo por um certo período de tempo."
     night-vision:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bnight vision for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bvisão noturna por um certo período de tempo."
     invisibility:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&binvisibility for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&binvisibilidade por um certo período de tempo."
     strength:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bstrength for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bforça por um certo período de tempo."
     jump:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bjump for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bsalte por um certo período de tempo."
     water-breathing:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bwater-breathing for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&brespiração por água por um certo período de tempo."
     regeration:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bregeration for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bregeneração por um certo período de tempo."
 
 
 
@@ -300,10 +300,10 @@ require-money: false
 
 Requirement:
   cost: 0
-  sethome-cost: 0
+  sethome-cost: 5000
 
 reward-on-kill:
-  enabled: true
+  enabled: false
   reward: 10
   take-from-killed-player: 10
 
@@ -382,29 +382,29 @@ use-bank-balance: false
 
 tier1:
   name: "Bronze"
-  cost: 0
+  cost: 20000
   max-members: 15
   mob-xp-multiplier: 1
   damage-multiplier: 1
-  max-bank-balance: 10000
+  max-bank-balance: 100000
   use-buffs: true
   use-vault: true
 tier2:
-  name: "Silver"
-  cost: 200
+  name: "Prata"
+  cost: 50000
   max-members: 30
   mob-xp-multiplier: 2
   damage-multiplier: 1
-  max-bank-balance: 20000
+  max-bank-balance: 200000
   use-buffs: true
   use-vault: true
 tier3:
-  name: "Gold"
-  cost: 300
+  name: "Ouro"
+  cost: 75000
   max-members: 50
   mob-xp-multiplier: 3
   damage-multiplier: 1
-  max-bank-balance: 30000
+  max-bank-balance: 300000
   use-buffs: true
   use-vault: true
 
@@ -493,7 +493,7 @@ scoreboard:
 
 roles:
   0:
-    name: "GuildMaster"
+    name: "Master"
     permissions:
       activate-buff: true
       add-ally: true
@@ -516,7 +516,7 @@ roles:
       withdraw-money: true
 
   1:
-    name: "Officer"
+    name: "Oficial"
     permissions:
       activate-buff: false
       add-ally: true
@@ -539,7 +539,7 @@ roles:
       withdraw-money: true
 
   2:
-    name: "Veteran"
+    name: "Veterano"
     permissions:
       activate-buff: false
       add-ally: false
@@ -560,7 +560,7 @@ roles:
       upgrade-guild: false
       withdraw-money: false
   3:
-    name: "Member"
+    name: "Membro"
     permissions:
       activate-buff: false
       add-ally: false
