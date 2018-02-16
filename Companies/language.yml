@@ -9,18 +9,18 @@ prefix: [Empresa]
 ##company creation
 
 
-denyStartCompanyMessage: "§cVocê não tem permisão para começar uma nova Empresa!"
+denyStartCompanyMessage: Você não tem permisão para começar uma nova Empresa!
 
-companyAlreadyExistsMessage: "§cEsta Empresa já existe!"
-companyCreatedMessage: "§e criada com sucesso!"
+companyAlreadyExistsMessage: Esta Empresa já existe!
+companyCreatedMessage: criada com sucesso!
 
-alreadyPartOfACompanyMessage: "§eVocê já tem uma empresa!"
+alreadyPartOfACompanyMessage: Você já tem uma empresa!
 
-companyDissolvedMessage: "§eParou de negociar e foi dissolvido"
+companyDissolvedMessage: parou de negociar e foi dissolvido
 
-playerNotPartOfYourCompanyMessage: "§cNão é parte de sua empresa"
+playerNotPartOfYourCompanyMessage: não é parte de sua empresa.
 
-playerNotEmployedMessage: "§cNão é empregado por ninguém"
+playerNotEmployedMessage: não é empregado por ninguém.
 
 
 
@@ -28,70 +28,70 @@ playerNotEmployedMessage: "§cNão é empregado por ninguém"
 
 
 
-companyNumberOfEmployeesIsMessage: "§eO número de funcionários de sua empresa é§6 "
+companyNumberOfEmployeesIsMessage: O número de funcionários de sua empresa é 
 
-companyBankBalanceIsMessage: "§eO saldo bancário da sua empresa é§6 "
+companyBankBalanceIsMessage: O saldo bancário da sua empresa é 
 
-companyNextWageBillIsMessage: "§eA próxima conta salarial da sua empresa é§6 "
+companyNextWageBillIsMessage: A próxima conta salarial da sua empresa é 
 
-companyCannotAffordPaymentMessage: "§eSua empresa não pode pagar o pagamento!"
+companyCannotAffordPaymentMessage: Sua empresa não pode pagar o pagamento!
 
-YourCompanyCannotAffordToPayEmployeeMessage: "§eSua empresa não pode pagar um empregado!"
+YourCompanyCannotAffordToPayEmployeeMessage: Sua empresa não pode pagar um empregado!
 
-youDoNotHaveEnoughMoneyMessage: "§eVocê não tem dinheiro suficiente, você precisa de "
+youDoNotHaveEnoughMoneyMessage: Você não tem dinheiro suficiente, você precisa de 
 
-youHaveDepositedMoneyMessage: "§eVocê depositou dinheiro no banco da sua empresa, ao valor de§6 "
+youHaveDepositedMoneyMessage: Você depositou dinheiro no banco da sua empresa, ao valor de 
 
-youHaveWithdrawnMoneyMessage: "§eVocê retirou dinheiro do banco da sua empresa, para o valor de§6 "
+youHaveWithdrawnMoneyMessage: Você retirou dinheiro do banco da sua empresa, para o valor de 
 
-paymentCompleteMessage: "§eO pagamento foi concluído!"
+paymentCompleteMessage: O pagamento foi concluído!
 
 
 
 ## setting company details 
 
-companyTradingSetMessage: "§eO status de negociação da sua empresa foi configurado para§6 "
+companyTradingSetMessage: O status de negociação da sua empresa foi configurado para 
 
-companyHqSetMessage: "§eO HQ da sua empresa foi configurado para§6 "
+companyHqSetMessage: O HQ da sua empresa foi configurado para 
 
-companyHqCostSetMessage: "§eO custo da sua empresa foi definido para§6 "
+companyHqCostSetMessage: O custo da sua empresa foi definido para§6 "
 
-companyWageTypeSetMessage: "§eO tipo de saldo da sua empresa foi definido como§6 "
+companyWageTypeSetMessage: O tipo de saldo da sua empresa foi definido como 
 
-companyDescriptionSetMessage: "§eA descrição da sua empresa foi configurada para§6 "
+companyDescriptionSetMessage: A descrição da sua empresa foi configurada para 
 
-hasBeenSetMessage: "§e foi definido!"
+hasBeenSetMessage:  foi definido!
 
 
 ##shops setup 
 
-companyShopCreatedMessage: "§eA loja da empresa foi criada com sucesso, armazene seu cofre para vender itens pelo preço mostrado na placa."
+companyShopCreatedMessage: A loja da empresa foi criada com sucesso, armazene seu cofre para vender itens pelo preço mostrado na placa.
 
-placeShopSignAfterChestMessage: "§aPara criar uma loja, você deve colocar um baú primeiro e colocar a placa da empresa acima!"
+placeShopSignAfterChestMessage: Para criar uma loja, você deve colocar um baú primeiro e colocar a placa da empresa acima!
 
-companyShopRemovedMessage: "§cA loja da sua empresa foi removida!"
+companyShopRemovedMessage: A loja da sua empresa foi removida!
 
 
 ##setting employee details
 
 
-employeeWageSetMessage: "§eO salário de s foi definido como "
+employeeWageSetMessage: O salário de s foi definido como 
 
-employeeRankSetMessage: "§eA classificação s foi definida como "
+employeeRankSetMessage: A classificação s foi definida como 
 
-employeeSackedMessage: "§cFoi demitido, com pagamento de redundância de "
+employeeSackedMessage: Foi demitido, com pagamento de redundância de 
 
-playerAlreadyEmployedMessage: "§eVocê já está empregado por uma empresa."
+playerAlreadyEmployedMessage: Você já está empregado por uma empresa.
 
-youHaveEmployedPlayerMessage: "§eVocê empregou com sucesso"
+youHaveEmployedPlayerMessage: Você empregou com sucesso
 
-youHaveBeenOfferedAJobMessage: "§eTem ofereceram um emprego de§6 "
+youHaveBeenOfferedAJobMessage: Tem ofereceram um emprego de 
 
-youHaveAcceptedTheJobOfferMessage: "§eVocê aceitou a oferta de emprego de§6 "
+youHaveAcceptedTheJobOfferMessage: Você aceitou a oferta de emprego de 
 
-youHaveDeclinedTheJobOfferMessage: "§eVocê recusou a oferta de emprego de§6 "
+youHaveDeclinedTheJobOfferMessage: Você recusou a oferta de emprego de 
 
-youDoNotHaveAnyJobOffersMessage: "§cVocê não possui ofertas de emprego!"
+youDoNotHaveAnyJobOffersMessage: Você não possui ofertas de emprego!
 
 ##misc employer messages
 
@@ -112,41 +112,41 @@ hasDeclinedYourJobOfferMessage: Não aceitou sua oferta de trabalho!
 ##messages for players and employees
 
 
-companyCannotPayYouMessage: "§cSua empresa não pode pagar você"
+companyCannotPayYouMessage: Sua empresa não pode pagar você
 
-youHaveBeenPaidMessage: "§eVocê foi pago!"
+youHaveBeenPaidMessage: Você foi pago!
 
-youHaveBeenEmployedByMessage: "§eVocê acabou de ser empregado por§6 "
+youHaveBeenEmployedByMessage: Você acabou de ser empregado por§6 
 
-youDoNotBelongToThisCompanyMessage: "§cVocê não pertence a esta Empresa!"
+youDoNotBelongToThisCompanyMessage: Você não pertence a esta Empresa!
 
-youAreNotTheCompanyOwnerMessage: "§cVocê não é o dono da empresa!"
+youAreNotTheCompanyOwnerMessage: Você não é o dono da empresa!
 
-youHaveBeenSackedMessage: "§cVocê foi demitido da sua empresa!"
+youHaveBeenSackedMessage: Você foi demitido da sua empresa!
 
-companyHasPaidYouDividendMessage: "§eVocê recebeu um dividendo de§6 "
+companyHasPaidYouDividendMessage: Você recebeu um dividendo de§6 
 
-youHaveLeftYourCompanyMessage: "§cVocê saiu da sua empresa!"
+youHaveLeftYourCompanyMessage: Você saiu da sua empresa!
 
-noCompanyMessage: "§eVocê está atualmente desempregado!"
+noCompanyMessage: Você está atualmente desempregado!
 
 
 
 ################ Miscellaneous Messages ################
 
 
-itIsPaydayMessage: "§eÉ dia de pagamento!"
+itIsPaydayMessage: É dia de pagamento!
 
-companyDoesNotexistMessage: "§cEste emprego não existe!"
+companyDoesNotexistMessage: Este emprego não existe!
 
-noPermissionsMessage: "§cVocê não tem permisão para isto!"
+noPermissionsMessage: Você não tem permisão para isto!
 
-mustBeANumberMessage: "§cO Valor deve ser um numero positivo!"
+mustBeANumberMessage: O Valor deve ser um numero positivo!
 
-companyHasCeasedTradingMessage: "§eEsta empresa cessou a negociação"
+companyHasCeasedTradingMessage: Esta empresa cessou a negociação
 
-youHavePurchasedGoodsMessage: "§eVocê comprou alguns produtos para§6 "
+youHavePurchasedGoodsMessage: Você comprou alguns produtos para 
 
-youHaveBeenTeleportedForMessage: "§eVocê foi transportado para a empresa sede ao custo de§6 "
+youHaveBeenTeleportedForMessage: Você foi transportado para a empresa sede ao custo de 
 
-travelToHqCostIsMessage: "§cViajar para a sede dessa empresa custará§6 "
+travelToHqCostIsMessage: Viajar para a sede dessa empresa custará 

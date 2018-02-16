@@ -74,7 +74,7 @@ debug:
  timings: false
 
 # Available languages: EN-US, PT-BR, FR-FR, FR-ES, HU-HU, RU, SP-ES and ZH-CN
-language: 'EN-US'
+language: 'PT-BR'
 
 # Jedis configuration.
 # Use Jedis to send messages between other servers running Jedis.
@@ -82,7 +82,7 @@ language: 'EN-US'
 jedis:
  enable: false
  # Change to a unique identification and use on tags with {jedis-id}.
- server-id: '&e[ChangeThis]&r '
+ server-id: '&6&lAtosMC&r '
  ip: 'localhost'
  port: '6379'
  pass: ''
@@ -121,15 +121,15 @@ api:
 # Use mentions on chat to change the player name color and play a sound on mention.
 mention:
  enable: true
- color-template: '&e@{mentioned-player}{group-suffix}'
+ color-template: '&e@{mentioned-player}'
  # May change if using old minecraft version.
  playsound: 'note_pling'
- hover-message: '&e{playername} mentioned you!'
+ hover-message: '&e{playername} te mencionou!'
 general:
  # Template to show when players send links or urls.
- URL-template: '&3Click to open &n{url}&r'
+ URL-template: '&3Clique para abrir &n{url}&r'
  # Tag to show when sent messages from console to channels.
- console-tag: '&6 {console}&3'
+ console-tag: '&6&lServer &3'
  # Remove this from chat (like empty tags)
  remove-from-chat:
  - '[]'
@@ -153,19 +153,19 @@ general:
  # This is the main tag builder.
  # Change the order of this tags to change how tag is displayed on chat.
  # This tags represent the names of tag in this configuration.
- default-tag-builder: 'world,marry-tag,ch-tags,clan-tag,factions,group-prefix,nickname,group-suffix,message'
+ default-tag-builder: 'ch-tags,group-prefix,nickname,group-suffix,message'
  # Enable to allow parse tags and placeholders on messages.
- enable-tags-on-messages: false
+ enable-tags-on-messages: true
  # Remember the channel the player is when logout/login until server restart?
  persist-channels: true
  item-hand:
   enable: true
   # Text to show on chat.
-  format: '&6[{hand-amount} {hand-type}]{group-suffix}'
+  format: '&a[{hand-amount}-{hand-type}]'
   # Placeholder to use on chat by players to show your item in hand.
   placeholder: '@hand'
 tell:
- cmd-aliases: 't,w,m,msg,private,priv,r'
+ cmd-aliases: 't,w,m,msg,private,priv,r,pv'
  prefix: '&6[&c{playername} &6-> &c{receivername}&6]: '
  format: '{message}'
  hover-messages: []
@@ -176,11 +176,11 @@ broadcast:
  # Enable custom broadcasts.
  enable: true
  # Tag to use on broadcast message to set a hover message.
- on-hover: 'hover:'
+ on-hover: 'sobre:'
  # Tag to use on broadcast message to set a click event.
- on-click: 'click:'
+ on-click: 'clique:'
  # Tag to use on broadcast message to suggest a command.
- suggest: 'suggest:'
+ suggest: 'comando:'
  # Tag to use on broadcast message to set a website url on click (with www).
  url: 'url:'
  # Aliases to use for broadcast.
@@ -188,26 +188,26 @@ broadcast:
 
 # This is where you will create as many tags you want.
 # You can use the tag "custom-tag" as base to create your own tags.
-# When finish, get the name of your tag and put on "general.default-tag-build" 
+# When finish, get the name of your tag and put on "general.default-tag-build"
 # or on channel builder on "channels" folder.
 tags:
  group-prefix:
-  format: '&7[{group-prefix}&7]&r'
+  format: '{group-prefix}'
   hover-messages:
   - '&bRank: &e{prim-group}'
  playername:
   format: '{playername}'
-  click-cmd: 'tpa {playername}'
+  click-cmd: 'call {playername}'
   hover-messages:
-  - '&7Click to send teleport request'
+  - '&7Clique para pedir call'
  nickname:
   format: '{nickname}'
   hover-messages:
-  - '&6Realname: {playername}'
+  - '&6Nome: {playername}'
  group-suffix:
-  format: '&r{group-suffix}: '
+  format: '{group-suffix}: '
  world:
-  format: '&7[{world}]&r'
+  format: '&7[{world}]'
   hover-messages: '&7[{world}]&r'
  message:
   format: '{message}'
@@ -215,8 +215,8 @@ tags:
   format: '{ch-color}[{ch-alias}]&r'
   click-cmd: 'ch {ch-alias}'
   hover-messages:
-  - '&3Channel name: {ch-color}{ch-name}'
-  - '&bClick to go to this channel!'
+  - '&3Canal: {ch-color}{ch-name}'
+  - '&bClique para ir a esse canal!'
  clan-tag:
   format: '{clan-tag}'
   click-cmd: 'clan search {playername}'
@@ -233,7 +233,7 @@ tags:
   hover-messages:
   - '&cMarried with {marry-partner}'
  admin-chat:
-  format: '&b[&r{playername}&b] '
+  format: '&c[&r{playername}&c] -> &e '
  bungee:
   format: '&7[{world}]{ch-color}[Bungee-{bungee-id}] {playername}: &7'
   hover-messages:

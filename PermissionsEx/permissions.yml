@@ -10,6 +10,20 @@ groups:
     - ultracosmetics.openmenu
     - ultracosmetics.command.clear
     - ultracosmetics.command.menu
+    - authme.player.*
+    - essentials.clearinventory
+    - essentials.tpa
+    - essentials.tpaccept
+    - essentials.tpahere
+    - essentials.tpdeny
+    - essentials.warp
+    - essentials.warp.list
+    - essentials.warps.*
+    - essentials.warps.WarpVip
+    - ancientgates.use.*
+    - -ancientgates.use.WarpVipJoin
+    - -ancientgates.use.WarpVipSpawn
+    - -ancientgates.use.WarpVipPortals
     worlds:
       Survival:
         permissions:
@@ -26,6 +40,14 @@ groups:
       prefix: '&f'
     permissions:
     - modifyworld.*
+    - fastlogin.bukkit.command.premium
+    - fastlogin.bukkit.command.cracked
+    - ChestShop.shop.buy
+    - ChestShop.shop.sell
+    - company.use
+    - -company.shop.create
+    - -company.bank
+    - essentials.getpos
     worlds:
       TheEnd:
         permissions:
@@ -40,6 +62,8 @@ groups:
     - ultracosmetics.emotes.cry
     - ultracosmetics.emotes.angry
     - ultracosmetics.emotes.happy
+    - craftingframes.use
+    - color.chat
     worlds:
       TheEnd:
         permissions:
@@ -51,7 +75,12 @@ groups:
       rank: '4'
       prefix: '&e&lEMPREENDEDOR &r'
     permissions:
-    - permissions.*
+    - color.sign
+    - authme.vip
+    - company.shop.create
+    - company.bank
+    - essentials.afk
+    - essentials.back.ondeath
     inheritance:
     - Doador
   Socio:
@@ -59,7 +88,11 @@ groups:
       rank: '5'
       prefix: '&e&lSOCIO &r'
     permissions:
-    - permissions.*
+    - ancientgates.econbypass
+    - ChestShop.shop.*
+    - essentials.compass
+    - essentials.condense
+    - essentials.lightning
     inheritance:
     - Empreendedor
   Financiador:
@@ -67,7 +100,11 @@ groups:
       rank: '6'
       prefix: '&e&lFINANCIADOR &r'
     permissions:
-    - permissions.*
+    - ChestShop.nofee
+    - dogtags.clear
+    - essentials.afk.auto
+    - essentials.feed
+    - essentials.ignore
     inheritance:
     - Socio
   Empresario:
@@ -75,7 +112,11 @@ groups:
       rank: '7'
       prefix: '&e&lEMPRESARIO &r'
     permissions:
-    - permissions.*
+    - essentials.back.ondeath
+    - essentials.keepxp
+    - essentials.fly
+    - essentials.hat
+    - teleport.cooldown.bypass
     inheritance:
     - Financiador
   Gerente:
@@ -83,7 +124,11 @@ groups:
       rank: '8'
       prefix: '&e&lGERENTE &r'
     permissions:
-    - permissions.*
+    - essentials.condense
+    - essentials.enderchest
+    - essentials.feed.cooldown.bypass
+    - essentials.fly.safelogin
+    - essentials.tptoggle
     inheritance:
     - Empresario
   Ajudante:
@@ -91,7 +136,19 @@ groups:
       prefix: '&a[HELPER]'
       rank: '9'
     permissions:
-    - permissions.*
+    - craftingframes.use
+    - authme.vip
+    - ancientgates.list
+    - ancientgates.tofrom
+    - ancientgates.tpto
+    - ancientgates.econbypass
+    - essentials.compass
+    - essentials.condense
+    - essentials.chat.ignoreexempt
+    - essentials.mute.notify
+    - essentials.mute.exempt
+    - essentials.joinfullserver
+    - essentials.tptoggle
     inheritance:
     - Membro
   Moderador:
@@ -99,7 +156,32 @@ groups:
       prefix: '&D[MOD]'
       rank: '10'
     permissions:
-    - permissions.*
+    - ancientgates.open
+    - ancientgates.close
+    - ancientgates.setexec
+    - ancientgates.remexec
+    - authme.allowmultipleaccounts
+    - ChestShop.mod
+    - company.tp
+    - essentials.ban
+    - essentials.ban.exempt
+    - essentials.banip
+    - essentials.clearinventory.others
+    - essentials.enderchest
+    - essentials.invsee
+    - essentials.invsee.preventmodify
+    - essentials.kick
+    - essentials.kick.exempt
+    - essentials.kick.notify
+    - essentials.kickall
+    - essentials.mute
+    - essentials.mute.offline
+    - essentials.fly.safelogin
+    - essentials.fly
+    - essentials.tempban
+    - essentials.tempban.exempt
+    - essentials.unban
+    - essentials.unbanip
     inheritance:
     - Ajudante
   Administrador:
@@ -107,7 +189,18 @@ groups:
       prefix: '&D[ADMIN]'
       rank: '11'
     permissions:
-    - permissions.*
+    - ancientgates.*
+    - authme.admin.*
+    - ChestShop.admin
+    - company.admin
+    - cratesplus.admin
+    - essentials.ban.notify
+    - essentials.ban.offline
+    - essentials.broadcast
+    - essentials.delwarp
+    - essentials.enchant
+    - essentials.exp
+    - essentials.invsee.modify
     inheritance:
     - Moderador
   Diretor:
@@ -115,9 +208,20 @@ groups:
       prefix: '&9[DIRETOR]'
       rank: '12'
     permissions:
-    - permissions.*
+    - ancientgates.*
+    - lagg.halt
+    - lagg.admin
+    - lagg.clear
+    - lagg.reload
+    - lagg.killmobs
+    - company.reload
+    - cratesplus.updates
+    - placeholderapi.admin
+    - essentials.protect
+    - essentials.silentjoin.vanish
     inheritance:
     - Administrador
+    - Construtor
   Dono:
     options:
       prefix: '&9[CEO]'
@@ -126,6 +230,14 @@ groups:
     - permissions.*
     inheritance:
     - Diretor
+  Construtor:
+    options:
+      prefix: '&3[BUILD]'
+      rank: '14'
+    permissions:
+    - essentials.bigtree
+    inheritance:
+    - Empreendedor
 schema-version: 1
 users:
   d820f75e-6f9b-3ff4-b8fb-595a91e907db:
@@ -133,3 +245,21 @@ users:
     - Dono
     options:
       name: _Gre
+  f0d74bea-e9e8-3fb8-85fc-cdac70c9e31c:
+    group:
+    - Construtor
+    options:
+      name: ZeppelinPvP
+  2a0a3e17-2905-3a6e-9cba-80982376d014:
+    group:
+    - Construtor
+    options:
+      name: TeneroBR
+  2317b44c-d3ca-3b6a-baee-eff381b3c9a4:
+    group:
+    - Moderador
+    options:
+      name: Sasuke310
+  2778f070-908e-3ef7-9bf2-fc709b1938bc:
+    group:
+    - Diretor

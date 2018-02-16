@@ -1,11 +1,11 @@
 # ###################################################
 # ############## Channel Configuration ##############
 # ###################################################
-# 
+#
 # This is the channel configuration.
 # You can change and copy this file to create as many channels you want.
 # This is the default options:
-# 
+#
 # name: Global - The name of channel.
 # alias: g - The alias to use the channel
 # across-worlds: true - Send messages of this channel to all worlds?
@@ -24,21 +24,21 @@
 # discord:
 #   mode: NONE - The options are NONE, SEND, LISTEN, BOTH. If enabled and token code set and the channel ID matches with one discord channel, will react according the choosen mode.
 #   hover: &3Discord Channel: &a{dd-channel}\n&3Role Name: {dd-rolecolor}{dd-rolename}
-#   format-to-mc: {ch-color}[{ch-alias}]&b{dd-rolecolor}[{dd-rolename}]{sender}&r: 
-#   format-to-dd: :thought_balloon: **{sender}**: {message} 
+#   format-to-mc: {ch-color}[{ch-alias}]&b{dd-rolecolor}[{dd-rolename}]{sender}&r:
+#   format-to-dd: :thought_balloon: **{sender}**: {message}
 #   allow-server-cmds: false - Use this channel to send commands from discord > minecraft.
 #   channelID: '' - The ID of your Discord Channel. Enable debug on your discord to get the channel ID.
 
-name: Admin
-alias: ad
-color: '&b'
+name: Staff
+alias: Staff
+color: '&c'
 jedis: true
 canLock: true
 need-focus: false
 channelAlias:
-  cmd: ''
+  cmd: 'staff'
   sendAs: player
-  enable: false
+  enable: true
 cost: 0.0
 discord:
   mode: none

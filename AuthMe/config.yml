@@ -94,10 +94,10 @@ settings:
         # The next time the player joins the server, if his IP
         # is the same as last time and the timeout hasn't
         # expired, he will not need to authenticate.
-        enabled: false
+        enabled: true
         # After how many minutes should a session expire?
         # A player's session ends after the timeout or if his IP has changed
-        timeout: 10
+        timeout: 30
     # Message language, available languages:
     # https://github.com/AuthMe/AuthMeReloaded/blob/master/docs/translations.md
     messagesLanguage: 'en'
@@ -122,11 +122,9 @@ settings:
         # Hide the chat log from players who are not authenticated?
         hideChat: false
         # Allowed commands for unauthenticated players
-        allowCommands: 
+        allowCommands:
         - '/login'
         - '/register'
-        - '/l'
-        - '/reg'
         - '/email'
         - '/captcha'
         # Max number of allowed registrations per IP
@@ -149,12 +147,12 @@ settings:
             enabled: false
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
-            worlds: 
+            worlds:
             - 'world'
             - 'world_nether'
             - 'world_the_end'
         # This option will save the quit location of the players.
-        SaveQuitLocation: false
+        SaveQuitLocation: true
         # To activate the restricted user feature you need
         # to enable this option and configure the AllowedRestrictedUser field.
         AllowRestrictedUser: false
@@ -175,7 +173,7 @@ settings:
         # Should not logged in players be teleported to the spawn?
         # After the authentication they will be teleported back to
         # their normal position.
-        teleportUnAuthedToSpawn: false
+        teleportUnAuthedToSpawn: true
         # Can unregistered players walk around?
         allowMovement: false
         # After how many seconds should players who fail to login or register
@@ -209,10 +207,10 @@ settings:
         otherAccountsCmdThreshold: 0
         # Command to run when a user has more accounts than the configured threshold.
         # Available variables: %playername%, %playerip%
-        otherAccountsCmd: 'say The player %playername% with ip %playerip% has multiple accounts!'
+        otherAccountsCmd: 'say O player %playername% com o ip tem mais de uma conta!'
     GameMode:
         # Force survival gamemode when player joins?
-        ForceSurvivalMode: false
+        ForceSurvivalMode: true
     unrestrictions:
         # Below you can list all account names that AuthMe will ignore
         # for registration or login. Configure it at your own risk!!
@@ -226,7 +224,7 @@ settings:
         # Minimum length of password
         minPasswordLength: 5
         # Maximum length of password
-        passwordMaxLength: 30
+        passwordMaxLength: 20
         # Possible values: SHA256, BCRYPT, BCRYPT2Y, PBKDF2, SALTEDSHA512,
         # MYBB, IPB3, PHPBB, PHPFUSION, SMF, XENFORO, XAUTH, JOOMLA, WBB3, WBB4, MD5VB,
         # PBKDF2DJANGO, WORDPRESS, ROYALAUTH, ARGON2, CUSTOM (for developers only). See full list at
@@ -249,7 +247,7 @@ settings:
         # - '123456'
         # - 'password'
         # - 'help'
-        unsafePasswords: 
+        unsafePasswords:
         - '123456'
         - 'password'
         - 'qwerty'
@@ -257,6 +255,7 @@ settings:
         - '54321'
         - '123456789'
         - 'help'
+        - 'senha'
     registration:
         # Enable registration on the server?
         enabled: true
@@ -287,7 +286,7 @@ settings:
     # {MAXPLAYERS}: display server slots, {IP}: player ip, {LOGINS}: number of players logged,
     # {WORLD}: player current world, {SERVER}: server name
     # {VERSION}: get current bukkit version, {COUNTRY}: player country
-    useWelcomeMessage: true
+    useWelcomeMessage: false
     # Broadcast the welcome message to the server or only to the player?
     # set true for server or false for player
     broadcastWelcomeMessage: false
@@ -355,7 +354,7 @@ Email:
     # Delay in minute for the recall scheduler
     delayRecall: 5
     # Blacklist these domains for emails
-    emailBlacklisted: 
+    emailBlacklisted:
     - '10minutemail.com'
     # Whitelist ONLY these domains for emails
     emailWhitelisted: []
@@ -376,18 +375,20 @@ Hooks:
     useEssentialsMotd: false
 Protection:
     # Enable some servers protection (country based login, antibot)
-    enableProtection: false
+    enableProtection: true
     # Apply the protection also to registered usernames
     enableProtectionRegistered: true
     # Countries allowed to join the server and register. For country codes, see
     # http://dev.maxmind.com/geoip/legacy/codes/iso3166/
     # PLEASE USE QUOTES!
-    countries: 
+    countries:
     - 'US'
-    - 'GB'
+    - 'AG'
+    - 'PT'
+    - 'BR'
     # Countries not allowed to join the server and register
     # PLEASE USE QUOTES!
-    countriesBlacklist: 
+    countriesBlacklist:
     - 'A1'
     # Do we need to enable automatic antibot system?
     enableAntiBot: true
@@ -395,7 +396,7 @@ Protection:
     antiBotInterval: 5
     # Max number of players allowed to login in the interval
     # before the AntiBot system is enabled automatically
-    antiBotSensibility: 10
+    antiBotSensibility: 5
     # Duration in minutes of the antibot automatic system
     antiBotDuration: 10
     # Delay in seconds before the antibot activation
@@ -430,18 +431,18 @@ Security:
         logConsole: true
     captcha:
         # Enable captcha when a player uses wrong password too many times
-        useCaptcha: false
+        useCaptcha: true
         # Max allowed tries before a captcha is required
-        maxLoginTry: 5
+        maxLoginTry: 2
         # Captcha length
-        captchaLength: 5
+        captchaLength: 6
         # Minutes after which login attempts count is reset for a player
         captchaCountReset: 60
     tempban:
         # Tempban a user's IP address if they enter the wrong password too many times
-        enableTempban: false
+        enableTempban: true
         # How many times a user can attempt to login before their IP being tempbanned
-        maxLoginTries: 10
+        maxLoginTries: 5
         # The length of time a IP address will be tempbanned in minutes
         # Default: 480 minutes, or 8 hours
         tempbanLength: 480
