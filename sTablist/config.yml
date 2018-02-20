@@ -1,12 +1,13 @@
 EnableAutoUpdater: true
 PluginAutoUpdate: 3600
-TabAutoUpdate: 3
-TagAutoUpdate: 3
+TabAutoUpdate: 5
+TagAutoUpdate: 10
 Header:
-  text: '&5This is the Header!'
+  text: \n&9&l» &6&lAtosMC &9&l« \n      &bSua atitude que faz o jogo!\n
   use: true
 Footer:
-  text: '&5This is the Footer!'
+  text: '\n&DNosso ip: &7play.atosmc.com\n&dNosso site: &7www.atosmc.com\n\n&2Players:
+    %online%/%max_online%\n'
   use: true
 HideGM3: false
 Join:
@@ -16,10 +17,10 @@ Join:
     fadein: 5
     stay: 20
     fadeout: 5
-    use: true
+    use: false
   Actionbar:
     text: '&5Have fun!'
-    use: true
+    use: false
 RandomColors:
 - '&0'
 - '&1'

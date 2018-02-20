@@ -1,0 +1,21 @@
+lastAccountName: TeneroBR
+timestamps:
+  login: 1519068044764
+  lastteleport: 1519068182353
+  logout: 1519068542949
+ipAddress: 138.204.74.115
+lastlocation:
+  world: Survival
+  x: -959.3000000119209
+  y: 106.66450515370491
+  z: -699.5030401298252
+  yaw: 176.36446
+  pitch: 34.966015
+logoutlocation:
+  world: Survival
+  x: 1079.5
+  y: 69.0
+  z: 4305.5
+  yaw: 0.0
+  pitch: 0.0
+afk: false

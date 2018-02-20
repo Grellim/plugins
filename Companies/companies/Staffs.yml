@@ -1,0 +1,11 @@
+tradingName: Staffs
+description: _Gre's new company
+owner: _Gre
+companyIsTrading: 'true'
+wageType: fixed
+hqLocation: none
+hqTpCost: '0'
+companyBankAmount: '0'
+companyEmployees:
+- _Gre
+- ChupChup_

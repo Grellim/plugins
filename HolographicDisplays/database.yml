@@ -1,0 +1,67 @@
+tutorialspawnportal:
+  location: Oficial, 0.466, 68.200, 34.442
+  lines:
+  - '&eEste portal te levará à: &9&lSala de Tutoriais&e'
+  - '&7Lá você verá os tutoriais básicos da jogabilidade'
+  - '&7do servidor, como: criar sua Cidade e/ou Nação,'
+  - '&7criar sua Compania, criar e administrar uma Guilda,'
+  - '&7entrar em um Jobs e mais...'
+survivalspawnportal:
+  location: Oficial, -33.393, 68.200, 0.473
+  lines:
+  - '&eEste portal te levará ao: &9&lMundo Survival'
+  - '&7Aqui, você será teleportado para um local'
+  - '&7randomico, em um mondo que podera começar'
+  - '&7sua jornada de sobrevivência.'
+minerarspawnportal:
+  location: Oficial, 0.526, 68.200, -33.497
+  lines:
+  - '&eEste portal te levará ao: &9&lMundo Minerar'
+  - '&7Aqui você entrará no mundo de mineração'
+  - '&7onde poderá coletar recursos.'
+salaportalspawnportal:
+  location: Oficial, 34.618, 68.200, 0.490
+  lines:
+  - '&eEste portal te levará à: &9&lSala De Portais'
+  - '&7Aqui você verá todos os portais considerados'
+  - '&7como oficiais pelo servidor.'
+survival1:
+  location: Oficial, -303.516, 12.200, -116.579
+  lines:
+  - '&aSurvival'
+tghome:
+  location: Oficial, -321.027, 10.381, -75.023
+  lines:
+  - '&aCriação de homes'
+empresa:
+  location: Oficial, -327.295, 11.116, -76.244
+  lines:
+  - '&aSistema de empresas'
+premium:
+  location: Oficial, -334.437, 10.373, -76.482
+  lines:
+  - '&aSistema Premium'
+jobs:
+  location: Oficial, -334.648, 10.743, -130.574
+  lines:
+  - '&aSistema de trabalhos'
+mcmmo:
+  location: Oficial, -330.114, 9.879, -130.772
+  lines:
+  - '&aSistema MCMMO'
+pet:
+  location: Oficial, -325.948, 10.623, -130.485
+  lines:
+  - '&aSistema de Pets'
+pickup:
+  location: Oficial, -321.381, 10.623, -129.994
+  lines:
+  - '&aSistema de quebrar spawner com Toque suave'
+guild:
+  location: Oficial, -298.716, 11.001, -111.752
+  lines:
+  - '&aSistema de Guilds'
+towny:
+  location: Oficial, -299.185, 10.994, -103.569
+  lines:
+  - '&aSistema de Cidades'

@@ -1,42 +1,35 @@
-Prefix: '&l&oCosmeticos >&r'
-No-Permission: '%prefix% &c&lSem permissão!'
-Cosmetic-Disabled: '%prefix% &c&lIsso está desativado!'
-Invalid-Gadget: '%prefix% &c&lGadget inválido!'
-Invalid-Pet: '%prefix% &c&lPet inválido!'
-Invalid-Mount: '%prefix% &c&lMontaria inválida!'
-Invalid-Effect: '%prefix% &c&lEfeito inválido!'
-Invalid-Morph: '%prefix% &c&lMorph inválido!'
-Invalid-Hat: '%prefix% &c&lChapéu inválido!'
-Invalid-Suit: '%prefix% &c&lTraje inválido!'
-Invalid-Emote: '%prefix% &c&lEmote inválido!'
-Invalid-Menu: '%prefix% &c&lMenu inválido!'
-Ammo: '&7Sua munição: &e%ammo%'
-Purchase: '&a&lCOMPRA'
-Cancel: '&c&lCANCELAR'
-Buy-Ammo-Description: '&e&lComprar %amount% %gadgetname% munição &e&lpor %price%$'
-Right-Click-Buy-Ammo: '&7Clique com o botão direito para comprar munição'
-Not-Enough-Money: '%prefix% &c&lSeu dinheiro acabou!'
-Successful-Purchase: '%prefix% &a&lCompra bem sucedida!'
-Buy-Treasure-Key: '&lComprar uma chave'
-Treasure-Keys: '&7&lChave do tesouro'
-Treasure-Chests: '&6&lBau do tesouro'
-Dont-Have-Key: '&4&lVocê precisa de uma chave!'
-Click-Open-Chest: '&aClique para abrir o bau'
-Click-Buy-Key: '&aClique para comprar'
-Your-Keys: '&7&oSuas chaves: &f&l%keys%'
-Buy-Treasure-Key-ItemName: '&e&l1 &7&lChave do tesouro &e&lpor %price%$'
-Treasure-Keys: '&7&lChaves do tesouro'
-Treasure-Chests: '&6&lBaus de Tesouro'
-Dont-Have-Key: '&4&lVocê precisa de uma chave!'
-Click-Open-Chest: '&aClique para abrir o baú'
-Click-Buy-Key: '&aClique no baú para comprar a chave'
-Your-Keys: '&7&oSuas chaves: &f&l%keys%'
-Buy-Treasure-Key-ItemName: '&e&l1 &7&lChave do tesouro &e&lpor %price%$'
-Found-Legendary: '%prefix% &c&l%name% encontrado lendário %found%'
-Chest-Not-Enough-Space: '%prefix% &c&lNão há espaço suficiente para um cofre do tesouro!'
-Too-Close-To-Other-Chest: '%prefix% &c&lVocê está muito perto de outro baú do tesouro!'
-You-Won-Treasure-Chests: '%prefix% &f&lVocê ganhou: %name%!'
-Clear-Cosmetics: '&c&lLimpar cosmeticos'
+Prefix: '&l&oCosmetics >&r'
+No-Permission: '%prefix% &c&lYou don''t have the permission!'
+Cosmetic-Disabled: '%prefix% &c&lThis cosmetic is disabled!'
+Invalid-Gadget: '%prefix% &c&lInvalid Gadget!'
+Invalid-Pet: '%prefix% &c&lInvalid Pet!'
+Invalid-Mount: '%prefix% &c&lInvalid Mount!'
+Invalid-Effect: '%prefix% &c&lInvalid Effect!'
+Invalid-Morph: '%prefix% &c&lInvalid Morph!'
+Invalid-Hat: '%prefix% &c&lInvalid Hat!'
+Invalid-Suit: '%prefix% &c&lInvalid Suit!'
+Invalid-Emote: '%prefix% &c&lInvalid Emote!'
+Invalid-Menu: '%prefix% &c&lInvalid Menu!'
+Ammo: '&7Your ammo: &e%ammo%'
+Purchase: '&a&lPURCHASE'
+Cancel: '&c&lCANCEL'
+Buy-Ammo-Description: '&e&lBuy %amount% %gadgetname% ammo &e&lfor %price%$'
+Right-Click-Buy-Ammo: '&7Right Click to Buy Ammo'
+Not-Enough-Money: '%prefix% &c&lYou don''t have enough money!'
+Successful-Purchase: '%prefix% &a&lSuccessful purchase!'
+Buy-Treasure-Key: '&lBuy a Treasure Key'
+Treasure-Keys: '&7&lTreasure Keys'
+Treasure-Chests: '&6&lTreasure Chests'
+Dont-Have-Key: '&4&lYou need a key!'
+Click-Open-Chest: '&aClick to open a chest'
+Click-Buy-Key: '&aClick to buy a key'
+Your-Keys: '&7&oYour keys: &f&l%keys%'
+Buy-Treasure-Key-ItemName: '&e&l1 &7&lTreasure Key &e&lfor %price%$'
+Found-Legendary: '%prefix% &c&l%name% found Legendary %found%'
+Chest-Not-Enough-Space: '%prefix% &c&lThere isn''t enough space for a treasure chest!'
+Too-Close-To-Other-Chest: '%prefix% &c&lYou are too close to another treasure chest!'
+You-Won-Treasure-Chests: '%prefix% &f&lYou won: %name%!'
+Clear-Cosmetics: '&c&lClear cosmetics'
 Clear-Gadget: '&c&lClear current gadget'
 Clear-Pet: '&c&lClear current pet'
 Clear-Mount: '&c&lClear current mount'
@@ -49,369 +42,369 @@ Rename-Pet-Purchase: '&c&lRename the pet to &f&l%name% &c&lfor &e&l%price%$'
 Active-Pet-Needed: '&c&lYou need to spawn a pet to rename it'
 Rename-Pet: '&c&lClick to rename: %petname%'
 Treasure-Chests-Loot:
-  Ammo: '%ammo% %name% munição'
+  Ammo: '%ammo% %name% ammo'
   Pet: '%pet% pet'
-  Mount: '%mount% montaria'
-  Effect: '%effect% efeito'
+  Mount: '%mount% mount'
+  Effect: '%effect% effect'
   Morph: '%morph% morph'
-  Hat: '%hat% chapéu'
+  Hat: '%hat% hat'
   Money: '&e&l%money%$'
   gadget: '%gadget% gadget'
   Suit: '%suit%'
   Emote: '%emote% emote'
-  Nothing: '&c&lNada'
+  Nothing: '&c&lNothing'
 Menus:
-  Main-Menu: '&lMenu Principal'
+  Main-Menu: '&lMain Menu'
   Pets: '&lPets'
   Gadgets: '&lGadgets'
-  Mounts: '&lMontarias'
+  Mounts: '&lMounts'
   Morphs: '&lMorphs'
-  Hats: '&lChapéis'
-  Particle-Effects: '&lEfeitos de partículas'
-  Suits: '&lTernos'
+  Hats: '&lHats'
+  Particle-Effects: '&lParticle Effects'
+  Suits: '&lSuits'
   Emotes: '&lEmotes'
-  Buy-Ammo: '&lBuy munição'
-  Rename-Pet: '&lRenomear pet'
-Disable-Gadgets: '&c&lDesabilitar Gadgets'
-Enable-Gadgets: '&a&lHabilitar Gadgets'
-Disable-Third-Person-View: '&c&lDesativar Morphs Visão de Terceira Pessoa'
-Enable-Third-Person-View: '&a&lHabilitar Morphs Visão de Terceira Pessoa'
-Gadgets-Enabled-Needed: '%prefix% &c&lVocê precisa habilitar gadgets!'
+  Buy-Ammo: '&lBuy Ammo'
+  Rename-Pet: '&lRename Pet'
+Disable-Gadgets: '&c&lDisable Gadgets'
+Enable-Gadgets: '&a&lEnable Gadgets'
+Disable-Third-Person-View: '&c&lDisable Morphs Third Person View'
+Enable-Third-Person-View: '&a&lEnable Morphs Third Person View'
+Gadgets-Enabled-Needed: '%prefix% &c&lYou need to enable gadgets!'
 Gadgets:
-  Equip: '%prefix% &9Você equipou %gadgetname%'
-  Unequip: '%prefix% &9Você desequipou %gadgetname%'
-  Countdown-Message: '%prefix% &c&lVocê não pode usar %gadgetname% &c&lpor %time%s!'
+  Equip: '%prefix% &9You equipped %gadgetname%'
+  Unequip: '%prefix% &9You unequipped %gadgetname%'
+  Countdown-Message: '%prefix% &c&lYou can''t use %gadgetname% &c&lfor %time%s!'
   PaintballGun:
-    name: '&b&lArma De Paintball'
+    name: '&b&lPaintball Gun'
   BatBlaster:
-    name: '&7&lArma De Morcego'
+    name: '&7&lBat Blaster'
   MelonThrower:
-    name: '&a&lArremesador De Melão'
-    Wait-For-Finish: '%prefix% &c&lAguarde até que seu melão anterior termine de explodir!'
+    name: '&a&lMelon Thrower'
+    Wait-For-Finish: '%prefix% &c&lWait for your previous melon to finish exploding!'
   EtherealPearl:
-    name: '&5&lPérola Etéria'
+    name: '&5&lEthereal Pearl'
   FleshHook:
-    name: '&7&lGancho para carne'
+    name: '&7&lFlesh Hook'
   DiscoBall:
-    name: '&d&lBola De Discoteca'
-    Already-Active: '&c&lJá existe uma bola de discoteca ativa!'
-    Not-Space-Above: '&c&Não há espaço suficiente acima de você!'
+    name: '&d&lDisco Ball'
+    Already-Active: '&c&lThere is already a disco ball active!'
+    Not-Space-Above: '&c&lThere is not enough space above you!'
   ColorBomb:
-    name: '&d&lBomba De Cor'
+    name: '&d&lColor Bomb'
   Chickenator:
-    name: '&f&lGalinhanator'
+    name: '&f&lChickenator'
   PortalGun:
     name: '&c&lPortal &9&lGun'
-    No-Block-Range: '%prefix% &c&lSem BLOCOS no alcance!'
-    Different-Worlds: '%prefix% &c&lOs portais devem estar no mesmo mundo!'
+    No-Block-Range: '%prefix% &c&lNo BLOCKS in range!'
+    Different-Worlds: '%prefix% &c&lPortals must be in the same world!'
   BlizzardBlaster:
-    name: '&b&lExplosão Nevasca'
+    name: '&b&lBlizzard Blaster'
   ThorHammer:
-    name: '&f&lMartelo Do Thor'
+    name: '&f&lThor''s Hammer'
   SmashDown:
-    name: '&c&lSmaga'
+    name: '&c&lSmashDown'
   ExplosiveSheep:
-    name: '&4&lOvelha Explosiva'
-    Already-Active: '&c&lTjá existe uma ovelha explosiva ativa!'
+    name: '&4&lExplosive Sheep'
+    Already-Active: '&c&lThere is already a an explosive sheep active!'
   AntiGravity:
-    name: '&d&lAnti Gravidade'
+    name: '&d&lAnti Gravity'
   Tsunami:
     name: '&9&lTsunami'
   Rocket:
-    name: '&4&lFoguete'
-    Not-Enough-Space: '%prefix% &c&lNão há espaço suficiente em torno e acima de você!'
-    Not-On-Ground: '%prefix% &c&lVocê deve estar no chão!'
-    Takeoff: '&4&lDESCOLAR!!!'
+    name: '&4&lRocket'
+    Not-Enough-Space: '%prefix% &c&lNot enough space around and above you!'
+    Not-On-Ground: '%prefix% &c&lYou must be on the ground!'
+    Takeoff: '&4&lTAKEOFF!!'
   BlackHole:
-    name: '&1&lBuraco Negro'
+    name: '&1&lBlack Hole'
   TNT:
     name: '&4&lT&f&lN&4&lT'
   FunGun:
-    name: '&6&lArma De Diversão'
+    name: '&6&lFun Gun'
   Parachute:
-    name: '&f&lParaquedas'
+    name: '&f&lParachute'
   QuakeGun:
-    name: '&5&lArma &d&lDe &d&lTerremoto'
+    name: '&5&lQuake &d&lGun'
   GhostParty:
-    name: '&f&lFesta Fantasma'
+    name: '&f&lGhost Party'
   Firework:
-    name: '&c&lFogos De Artificio'
+    name: '&c&lFirework'
   ChristmasTree:
-    name: '&2&lArvore De Natal'
-    Click-On-Block: '%prefix% &c&lPor favor, clique em um bloco!'
+    name: '&2&lChristmas Tree'
+    Click-On-Block: '%prefix% &c&lPlease click on a block!'
   FreezeCannon:
-    name: '&b&lCanhão De Congelamento'
+    name: '&b&lFreeze Cannon'
   Snowball:
-    name: '&f&lBola De Neve'
+    name: '&f&lSnowball'
   PartyPopper:
-    name: '&e&lFesta Drogada'
+    name: '&e&lParty Popper'
   Trampoline:
-    name: '&9&lTrampolim'
-  Gadget-Ready-ActionBar: '%gadgetname% &f&liestá pronto!'
+    name: '&9&lTrampoline'
+  Gadget-Ready-ActionBar: '%gadgetname% &f&lis ready!'
   Lore: '&9Gadget'
 Mounts:
   DruggedHorse:
-    menu-name: '&2&lCavalo Drogado'
-    entity-displayname: '&2&lCavalo Drogado De &F&l%playername%'''
+    menu-name: '&2&lDrugged Horse'
+    entity-displayname: '&l%playername%''s drugged horse'
   InfernalHorror:
-    menu-name: '&4&lHorror Infernal'
-    entity-displayname: '&4&lHorror Infernal De &f&l%playername%'''
+    menu-name: '&4&lInfernal Horror'
+    entity-displayname: '&l%playername%''s infernal horror'
   GlacialSteed:
-    menu-name: '&b&lCorcel Glacial'
-    entity-displayname: '&b&lCorcel Glacial De &f&l%playername%'''
+    menu-name: '&b&lGlacial Steed'
+    entity-displayname: '&l%playername%''s glacial steed'
   WalkingDead:
-    menu-name: '&2&lMorto vivo'
-    entity-displayname: '&2&lMorto vivo De &f&l%playername%'''
+    menu-name: '&2&lWalking Dead'
+    entity-displayname: '&l%playername%''s walking dead'
   MountOfFire:
-    menu-name: '&c&lMontaria do Fogo'
-    entity-displayname: '&c&lMontaria do Fogo De &f&l%playername%'''
+    menu-name: '&c&lMount of Fire'
+    entity-displayname: '&l%playername%''s mount of fire'
   MountOfWater:
-    menu-name: '&9&lMontaria Da Agua'
-    entity-displayname: '&9&lMontaria Da Agua De &f&l%playername%'''
+    menu-name: '&9&lMount of Water'
+    entity-displayname: '&l%playername%''s mount of water'
   EcologistHorse:
-    menu-name: '&a&lCavalo Ecologista'
-    entity-displayname: '&a&lCavalo Ecologista De &f&l%playername%'''
+    menu-name: '&a&lEcologist Horse'
+    entity-displayname: '&l%playername%''s ecologist horse'
   NyanSheep:
-    menu-name: '&4&lOvelha &c&lC&1&lO&6&lL&8&lO&b&lR&a&lI&9&lD&3&lA'
-    entity-displayname: '&4&lOvelha &c&lC&1&lO&6&lL&8&lO&b&lR&a&lI&9&lD&3&lA De &l%playername%'''
+    menu-name: '&4&lNy&6&la&e&ln &a&lSh&b&lee&d&lp'
+    entity-displayname: '&l%playername%''s nyan sheep'
   Snake:
-    menu-name: '&6&lCobra'
-    entity-displayname: '&6Cobra De &f&l%playername%'''
+    menu-name: '&6&lSnake'
+    entity-displayname: '&l%playername%''s snake'
   Dragon:
     menu-name: '&5&lDragon'
     entity-displayname: '&l%playername%''s dragon'
   SkySquid:
-    menu-name: '&9&lLula Do Céu'
-    entity-displayname: '&9&lLula Do Céu De &f&l%playername%'''
+    menu-name: '&9&lSky Squid'
+    entity-displayname: '&l%playername%''s sky squid'
   HypeCart:
-    menu-name: '&7&lCarrinho'
-    entity-displayname: '&7&lCarrinho De &f&l%playername%'''
+    menu-name: '&7&lHypeCart'
+    entity-displayname: '&l%playername%''s hypecart'
   Slime:
     menu-name: '&a&lSlime'
-    entity-displayname: '&a&lSlime De &f&l%playername%'''
+    entity-displayname: '&l%playername%''s slime'
   Spider:
-    menu-name: '&8&lAranha'
-    entity-displayname: '&8&lAranha De &f&l%playername%'''
+    menu-name: '&8&lSpider'
+    entity-displayname: '&l%playername%''s spider'
   Rudolph:
-    menu-name: '&f&lRodolfo'
-    entity-displayname: '&f&LRodolfo De &f&l%playername%'''
+    menu-name: '&f&lRudolp&4&lh'
+    entity-displayname: '&l%playername%''s rudolph'
   MoltenSnake:
-    menu-name: '&c&lSerpente derretida'
-    entity-displayname: '&c&lSerpente derretida De &f&l%playername%'''
+    menu-name: '&c&lMolten Snake'
+    entity-displayname: '&l%playername%''s Molten Snake'
   FlyingShip:
-    menu-name: '&a&lNavio Voador'
-    entity-displayname: '&a&LNavio Voador De &f&l%playername%'''
-  Spawn: '%prefix% &9Você spawnou %mountname%'
-  Despawn: '%prefix% &9Você despawnou %mountname%'
+    menu-name: '&a&lFlying Ship'
+    entity-displayname: '&l%playername%''s Flying Ship'
+  Spawn: '%prefix% &9You spawned %mountname%'
+  Despawn: '%prefix% &9You despawned %mountname%'
 Particle-Effects:
-  Summon: '%prefix% &9Você sumonou %effectname%'
-  Unsummon: '%prefix% &9Você desumonou %effectname%'
+  Summon: '%prefix% &9You summoned %effectname%'
+  Unsummon: '%prefix% &9You unsummoned %effectname%'
   RainCloud:
-    name: '&9&lNuvem de chuva'
+    name: '&9&lRain Cloud'
   SnowCloud:
-    name: '&f&lNuvem de neve'
+    name: '&f&lSnow Cloud'
   BloodHelix:
-    name: '&4&lAspiral de sangue'
+    name: '&4&lBlood Helix'
   FrostLord:
-    name: '&b&lSenhor de gelo'
+    name: '&b&lFrost Lord'
   FlameRings:
-    name: '&c&lAnel de chama'
+    name: '&c&lFlame Rings'
   GreenSparks:
-    name: '&a&lFaisca verde'
+    name: '&a&lGreen Sparks'
   InLove:
-    name: '&c&lNo amor'
+    name: '&c&lIn Love'
   FrozenWalk:
-    name: '&b&lAndar congelado'
+    name: '&b&lFrozen Walk'
   Enchanted:
-    name: '&7&lEncantado'
+    name: '&7&lEnchanted'
   Music:
-    name: '&9&lMusico'
+    name: '&9&lMusic'
   Inferno:
     name: '&4&lInferno'
   AngelWings:
-    name: '&f&lAsas de anjo'
+    name: '&f&lAngel Wings'
   SuperHero:
-    name: '&4&lSuper Heroi'
+    name: '&4&lSuper Hero'
   SantaHat:
-    name: '&4&lChapéu do papai noel'
+    name: '&4&lSanta &f&lHat'
   CrushedCandyCane:
-    name: '&4&lCrushed Candy Cane'
+    name: '&4&lCrushed &f&lCandy &4&lCane'
   EnderAura:
     name: '&d&lEnder Aura'
   FlameFairy:
-    name: '&6&lFada da chama'
+    name: '&6&lFlame Fairy'
 Pets:
   Piggy:
-    menu-name: '&d&lPorco'
-    entity-displayname: '&d&lPorco De &f&l%playername%'''
+    menu-name: '&d&lPiggy'
+    entity-displayname: '&l%playername%''s piggy'
   Sheep:
-    menu-name: '&f&lOvelha'
-    entity-displayname: '&f&lOvelha De &l%playername%'''
+    menu-name: '&f&lSheep'
+    entity-displayname: '&l%playername%''s sheep'
   EasterBunny:
-    menu-name: '&6&lCoelho da pascoa'
-    entity-displayname: '&6Coelho Da Pascoa De &f&l%playername%'''
+    menu-name: '&6&lEaster Bunny'
+    entity-displayname: '&l%playername%''s easter bunny'
   Cow:
-    menu-name: '&c&lVaca'
-    entity-displayname: '&c&lVaca De &f&l%playername%'''
+    menu-name: '&c&lCow'
+    entity-displayname: '&l%playername%''s cow'
   Kitty:
-    menu-name: '&9&lGato'
-    entity-displayname: '&9&lGato De &f&l%playername%'''
+    menu-name: '&9&lKitty'
+    entity-displayname: '&l%playername%''s kitty'
   Dog:
-    menu-name: '&7&lCachorro'
-    entity-displayname: '&7&lCachorro De &f&l%playername%'''
+    menu-name: '&7&lDog'
+    entity-displayname: '&l%playername%''s dog'
   Chick:
-    menu-name: '&e&lGalinha'
-    entity-displayname: '&e&lGalinha De &f&l%playername%'''
+    menu-name: '&e&lChick'
+    entity-displayname: '&l%playername%''s chick'
   Wither:
     menu-name: '&8&lWither'
-    entity-displayname: '&8&lWither De &f&l%playername%'''
+    entity-displayname: '&l%playername%''s wither'
   Pumpling:
-    menu-name: '&6&lAbóbora'
-    entity-displayname: '&6&lAbóbora De &f&l%playername%'''
+    menu-name: '&6&lPumpling'
+    entity-displayname: '&l%playername%''s pumpling'
   CompanionCube:
-    menu-name: '&d&lCubo Companheiro'
-    entity-displayname: '&d&lCubo Companheiro De &f&l%playername%'''
+    menu-name: '&d&lCompanion Cube'
+    entity-displayname: '&l%playername%''s cube'
   ChristmasElf:
-    menu-name: '&a&lDuende de natal'
-    entity-displayname: '&a&lDuende De Natal De &f&l%playername%'''
+    menu-name: '&a&lChristmas Elf'
+    entity-displayname: '&l%playername%''s Christmas elf'
   Mooshroom:
-    menu-name: '&4&lCogumelo'
-    entity-displayname: '&4&lCogumelo De &f&l%playername%'''
+    menu-name: '&4&lMooshroom'
+    entity-displayname: '&l%playername%''s Mooshroom'
   IronGolem:
     menu-name: '&7&lIronGolem'
-    entity-displayname: '&7&lIronGolem De &f&l%playername%'''
+    entity-displayname: '&l%playername%''s IronGolem'
   Snowman:
-    menu-name: '&f&lBoneco De Neve'
-    entity-displayname: '&f&lBoneco De Neve De &f&l%playername%'''
+    menu-name: '&f&lSnowman'
+    entity-displayname: '&l%playername%''s Snowman'
   Villager:
     menu-name: '&a&lVillager'
-    entity-displayname: '&a&lVillager De &f&l%playername%'''
+    entity-displayname: '&l%playername%''s Villager'
   Bat:
-    menu-name: '&8&lMorcego'
-    entity-displayname: '&8&lMorcego De &f&l%playername%'''
+    menu-name: '&8&lBat'
+    entity-displayname: '&l%playername%''s Bat'
   PolarBear:
-    menu-name: '&b&lUrso Polar'
-    entity-displayname: '&b&lUrso Polar De &f&l%playername%'''
+    menu-name: '&b&lPolarBear'
+    entity-displayname: '&l%playername%''s PolarBear'
   Llama:
-    menu-name: '&7&lLiama'
-    entity-displayname: '&7&lLiama De &f&l%playername%'''
+    menu-name: '&7&lLlama'
+    entity-displayname: '&l%playername%''s Llama'
   Parrot:
-    menu-name: '&a&lPapagaio'
-    entity-displayname: '&a&lPapagaio De &f&l%playername%'''
-  Spawn: '%prefix% &9Você spawnou %petname%'
-  Despawn: '%prefix% &9Você despawnou %petname%'
+    menu-name: '&a&lParrot'
+    entity-displayname: '&l%playername%''s Parrot'
+  Spawn: '%prefix% &9You spawned %petname%'
+  Despawn: '%prefix% &9You despawned %petname%'
 Morphs:
   Blaze:
     name: '&6&lBlaze'
-    skill: '&eAgachar&7 Para: &aVoar'
+    skill: '&eCrouch&7 to: &aFly'
   Chicken:
     name: '&f&lChicken'
-    skill: '&eAgachar&7 Para: &aBotar ovos'
+    skill: '&eCrouch&7 to: &aLay eggs'
   Slime:
     name: '&a&lSlime'
-    skill: '&eAgachar&7 Para: &aPulo'
+    skill: '&eCrouch&7 to: &aBounce'
   Pig:
     name: '&d&lPig'
-    skill: '&eColidir&7 Para: &aPular Jogadores'
+    skill: '&eCollide&7 to: &aBounce Players'
   Enderman:
     name: '&5&lEnderman'
-    skill: '&ePulo Duplo&7 Para: &aTeleportar'
+    skill: '&eDouble Jump&7 to: &aTeleport'
   Bat:
     name: '&8&lBat'
-    skill: '&ePulo Duplo&7 Para: &aFlap'
+    skill: '&eDouble Jump&7 to: &aFlap'
   Creeper:
     name: '&a&lCreeper'
-    skill: '&eAgachar&7 Para: &aDetonar'
-    charging: '&a&lCarregando: %chargelevel%/100'
-    release-to-explode: '&f&lRecerregue para explodir!'
+    skill: '&eCrouch&7 to: &aDetonate'
+    charging: '&a&lCharging: %chargelevel%/100'
+    release-to-explode: '&f&lRelease to explode!'
   Snowman:
-    name: '&f&lBoneco De Neve'
-    skill: '&eClique esquerdo&7 to: &aJoga Bola De Neve'
-  Morph: '%prefix% &9Você se transformou-se em %morphname%'
-  Unmorph: '%prefix% &9Você se detransformou-se em %morphname%'
+    name: '&f&lSnowman'
+    skill: '&eLeft Click&7 to: &aThrow Snowball'
+  Morph: '%prefix% &9You morphed into %morphname%'
+  Unmorph: '%prefix% &9You unmorphed from %morphname%'
   WitherSkeleton:
     name: '&8&lWither Skeleton'
-    skill: '&eAgachar&7 Para: &aBomba de osso'
+    skill: '&eSneak&7 to: &aBone Bomb'
   ElderGuardian:
     name: '&8&lElder Guardian'
-    skill: '&eClique esquerdo&7 Para: &aLaser'
+    skill: '&eLeft-Click&7 to: &aLaser'
   Cow:
     name: '&8&lCow'
-    skill: '&eClique esquerdo&7 to: &aMoo'
+    skill: '&eLeft-Click&7 to: &aMoo'
   Sheep:
     name: '&f&lSheep'
-    skill: '&eClique esquerdo&7 to: &aMudar De Cor'
+    skill: '&eLeft-Click&7 to: &aChange Colors'
   Mooshroom:
-    name: '&c&lVaca Cogumelo'
-    skill: '&eAgachar&7 to: &aJogar Sopa'
+    name: '&c&lMooshroom'
+    skill: '&eCrouch&7 to: &aSoup Throw'
   Villager:
     name: '&a&lVillager'
-    skill: '&eClique esquerdo&7 to: &aJogar Esmeralda'
+    skill: '&eLeft-Click&7 to: &aEmerald Throw'
   Witch:
-    name: '&5&lBruxa'
-    skill: '&eClique esquerdo&7 to: &aJogar Poçao'
+    name: '&5&lWitch'
+    skill: '&eLEft-Click&7 to: &aPotion Throw'
   PolarBear:
-    name: '&f&lUrso Polar'
-    skill: '&eClique esquerdo&7 to: &aNevasca'
+    name: '&f&lPolarBear'
+    skill: '&eLeft-Click&7 to: &aBlizzard'
   Llama:
-    name: '&3&lLiama'
-    skill: '&eClique esquerdo&7 to: &aCuspir'
+    name: '&3&lLlama'
+    skill: '&eLeft-Click&7 to: &aSpit'
   Parrot:
-    name: '&a&lPapagaio'
-    skill: '&ePulo Duplo&7 to: &aIndisponivel'
+    name: '&a&lParrot'
+    skill: '&eDouble Jump&7 to: &aFlap'
 Hats:
-  Equip: '%prefix% &9Você equipou %hatname% &9hat!'
-  Unequip: '%prefix% &9Você desequipou %hatname% &9hat!'
+  Equip: '%prefix% &9You equipped %hatname% &9hat!'
+  Unequip: '%prefix% &9You unequipped %hatname% &9hat!'
   Astronaut:
-    Name: '&7&lAstronauta'
+    Name: '&7&lAstronaut'
   Scared:
-    Name: '&4&lAssustado'
+    Name: '&4&lScared'
   Angel:
-    Name: '&f&lAnjo'
+    Name: '&f&lAngel'
   Embarassed:
-    Name: '&7&lEnvergonhado'
+    Name: '&7&lEmbarassed'
   Kissy:
-    Name: '&c&lBeijando'
+    Name: '&c&lKissy'
   Sad:
-    Name: '&9&lTriste'
+    Name: '&9&lSad'
   Cool:
-    Name: '&6&lLegal'
+    Name: '&6&lCool'
   Surprised:
-    Name: '&4&lSurpreso'
+    Name: '&4&lSurprised'
   Dead:
-    Name: '&8&lMorto'
+    Name: '&8&lDead'
   Crying:
-    Name: '&9&lChorando'
+    Name: '&9&lCrying'
   BigSmile:
-    Name: '&6&lGrande sorriso'
+    Name: '&6&lBigSmile'
   Wink:
-    Name: '&e&lPiscando'
+    Name: '&e&lWink'
   Derp:
     Name: '&3&lDerp'
   Smile:
-    Name: '&e&lSorrir'
+    Name: '&e&lSmile'
   Iron:
-    Name: '&7&lFerro'
+    Name: '&7&lIron'
   Gold:
-    Name: '&e&lOuro'
+    Name: '&e&lGold'
   Diamond:
-    Name: '&b&lDiamante'
+    Name: '&b&lDiamond'
   CommandBlock:
     Name: '&7&lCommand Block'
   Music:
-    Name: '&9&lMusica'
+    Name: '&9&lMusic'
   Squid:
-    Name: '&3&lLula'
+    Name: '&3&lSquid'
   Chicken:
-    Name: '&f&lGalinha'
+    Name: '&f&lChicken'
   Blaze:
     Name: '&6&lBlaze'
   Piston:
-    Name: '&7&lPistão'
+    Name: '&7&lPiston'
   Sheep:
-    Name: '&f&lOvelha'
+    Name: '&f&lSheep'
   Pig:
-    Name: '&d&lPorco'
+    Name: '&d&lPig'
   Golem:
     Name: '&7&lGolem'
   Enderman:
@@ -423,69 +416,69 @@ Hats:
   Batman:
     Name: '&8&lBatman'
   Chest:
-    Name: '&6&lBaú'
+    Name: '&6&lChest'
   Skull:
-    Name: '&f&lCrânio'
+    Name: '&f&lSkull'
   JackOLantern:
-    Name: '&6&lJack o Lanterna'
+    Name: '&6&lJack-O''-Lantern'
   Ghost:
-    Name: '&f&lFantasma'
+    Name: '&f&lGhost'
   ScaryClown:
-    Name: '&4&lPalhaço assustador'
+    Name: '&4&lScary Clown'
   Santa:
-    Name: '&4&lPapai Noel'
+    Name: '&4&lSanta'
   Snowman:
-    Name: '&f&lBoneco De Neve'
+    Name: '&f&lSnowman'
   Present:
-    Name: '&c&lPresente'
+    Name: '&c&lPresent'
   Elf:
-    Name: '&a&lDuende'
+    Name: '&a&lElf'
   Bedrock:
     Name: '&8&lBedrock'
   Bread:
-    Name: '&f&lPão'
+    Name: '&f&lBread'
   Cheese:
-    Name: '&e&lQueijo'
+    Name: '&e&lCheese'
   Pancakes:
-    Name: '&f&lPanquecas'
+    Name: '&f&lPancakes'
   Cake:
-    Name: '&c&lBolo'
+    Name: '&c&lCake'
   Cookie:
     Name: '&6&lCookie'
   CandyCane:
-    Name: '&c&lBastão de doces'
+    Name: '&c&lCandy &f&lCane'
   Chocolate:
     Name: '&a&lChocolate'
   WhiteChocolate:
-    Name: '&f&lChocolate Branco'
+    Name: '&f&lWhite Chocolate'
   Apple:
-    Name: '&4&lMaça'
+    Name: '&4&lApple'
   Melon:
-    Name: '&a&lMelão'
+    Name: '&a&lMelon'
   CarvedPumpkin:
-    Name: '&6&lAbóbora esculpida'
+    Name: '&6&lCarved Pumpkin'
   Strawberry:
-    Name: '&c&lmorango'
+    Name: '&c&lStrawberry'
   Coconut:
-    Name: '&f&lCoco'
+    Name: '&f&lCoconut'
   Taco:
     Name: '&e&lTaco'
   Bacon:
     Name: '&f&lBacon'
   Fries:
-    Name: '&6&lFritas'
+    Name: '&6&lFries'
   Hamburger:
     Name: '&6&lHamburger'
   Popcorn:
-    Name: '&6&lPipoca'
+    Name: '&6&lPopcorn'
   WhiteDonut:
-    Name: '&f&lDonut Branco'
+    Name: '&f&lWhite Donut'
   PinkDonut:
-    Name: '&d&lDonut Rosa'
+    Name: '&d&lPink Donut'
   ChocolateDonut:
-    Name: '&a&lDonut De Chocolate'
+    Name: '&a&lChocolate Donut'
   Pie:
-    Name: '&4&lTorta'
+    Name: '&4&lPie'
   A:
     Name: '&6&lA'
   B:
@@ -538,82 +531,82 @@ Hats:
     Name: '&6&lY'
   Z:
     Name: '&4&lZ'
-  Must-Remove-Hat: '%prefix% &c&lVocê deve remover seu capacete para equipar um chapéu!'
+  Must-Remove-Hat: '%prefix% &c&lYou must remove your helmet to equip a hat!'
 Suits:
   Rave:
-    Chapéu-name: '&f&lChapéu De &b&lR&a&la&e&lv&6&le'
-    Traje-name: '&f&lTraje De &b&lR&a&la&e&lv&6&le'
-    Perna-name: '&f&lPerna De &b&lR&a&la&e&lv&6&le'
-    Bota-name: '&f&lBota De &b&lR&a&la&e&lv&6&le'
+    helmet-name: '&b&lR&a&la&e&lv&6&le &f&lHelmet'
+    chestplate-name: '&b&lR&a&la&e&lv&6&le &f&lChestplate'
+    leggings-name: '&b&lR&a&la&e&lv&6&le &f&lLeggings'
+    boots-name: '&b&lR&a&la&e&lv&6&le &f&lBoots'
   Astronaut:
-    Chapéu-name: '&f&lChapéu De &f&lAstronaut'
-    Traje-name: '&f&lTraje De &f&lAstronaut'
-    Perna-name: '&f&lPerna De &f&lAstronaut'
-    Bota-name: '&f&lBota De &f&lAstronaut'
+    helmet-name: '&f&lAstronaut &f&lHelmet'
+    chestplate-name: '&f&lAstronaut &f&lChestplate'
+    leggings-name: '&f&lAstronaut &f&lLeggings'
+    boots-name: '&f&lAstronaut &f&lBoots'
   Diamond:
-    Chapéu-name: '&f&lChapéu De &b&lDiamond '
-    Traje-name: '&f&lTraje De &b&lDiamond'
-    Perna-name: '&f&lPerna De &b&lDiamond'
-    Bota-name: '&f&lBota De &b&lDiamond'
+    helmet-name: '&b&lDiamond &f&lHelmet'
+    chestplate-name: '&b&lDiamond &f&lChestplate'
+    leggings-name: '&b&lDiamond &f&lLeggings'
+    boots-name: '&b&lDiamond &f&lBoots'
   Santa:
-    Chapéu-name: '&f&lChapéu De &4&lSanta'
-    Traje-name: '&f&lTraje De &4&lSanta'
-    Perna-name: '&f&lPerna De &4&lSanta'
-    Bota-name: '&f&lBota De &4&lSanta'
-  Equip: '%prefix% &9Você equipou %suitname%!'
-  Unequip: '%prefix% &9Você desequipou %suitname%!'
-  Suit-Part-Lore: '&9Terno'
+    helmet-name: '&4&lSanta &f&lHelmet'
+    chestplate-name: '&4&lSanta &f&lChestplate'
+    leggings-name: '&4&lSanta &f&lLeggings'
+    boots-name: '&4&lSanta &f&lBoots'
+  Equip: '%prefix% &9You equipped %suitname%!'
+  Unequip: '%prefix% &9You unequipped %suitname%!'
+  Suit-Part-Lore: '&9Suits Part'
 Emotes:
-  Equip: '%prefix% &9Você equipou %emotename%'
-  Unequip: '%prefix% &9Você desequipou %emotename%'
+  Equip: '%prefix% &9You equipped %emotename%'
+  Unequip: '%prefix% &9You unequipped %emotename%'
   Cry:
-    Name: '&9&lChoro'
+    Name: '&9&lCry'
   Angry:
-    Name: '&c&lBravo'
+    Name: '&c&lAngry'
   Happy:
-    Name: '&e&lFeliz'
+    Name: '&e&lHappy'
   Cheeky:
-    Name: '&6&lAbusado'
+    Name: '&6&lCheeky'
   Love:
-    Name: '&4&lAmor'
+    Name: '&4&lLove'
   DealWithIt:
-    Name: '&7&lLide com isso'
+    Name: '&7&lDeal With it'
   Cool:
-    Name: '&9&lLegal'
+    Name: '&9&lCool'
   Surprised:
-    Name: '&6&lSurpreso'
+    Name: '&6&lSurprised'
   Wink:
-    Name: '&a&lPiscadela'
-  Must-Remove-Chapéu: '%prefix% &c&lVocê deve remover seu Chapéu para equipar um emote!'
+    Name: '&a&lWink'
+  Must-Remove-Helmet: '%prefix% &c&lYou must remove your helmet to equip an emote!'
 Menu:
   Gadgets: '&9&lGadgets'
-  Particle-Effects: '&b&lEfeito Das Particulas'
-  Mounts: '&6&lMontarias'
+  Particle-Effects: '&b&lParticle Effects'
+  Mounts: '&6&lMounts'
   Pets: '&a&lPets'
   Morphs: '&2&lMorphs'
-  Hats: '&b&lChapéis´'
-  Suits: '&c&lTerno'
+  Hats: '&b&lHats'
+  Suits: '&c&lSuits'
   Emotes: '&e&lEmotes'
-  Main-Menu: '&c&lMenu Principal'
-  Activate: '&b&lHabilitado'
-  Deactivate: '&c&lDesabilitado'
+  Main-Menu: '&c&lMain Menu'
+  Activate: '&b&lActivate'
+  Deactivate: '&c&lDeactivate'
   Spawn: '&b&lSpawn'
-  Despawn: '&c&lDespawnado'
-  Summon: '&b&lSumonado'
-  Unsummon: '&c&lDesumonado'
-  Equip: '&b&lEquipado'
-  Unequip: '&c&lDesequipado'
-  Morph: '&b&lMorph em'
-  Unmorph: '&c&lUnmorph por'
-  Previous-Page: '&c&lPágina anterior'
-  Next-Page: '&a&lProxima Pagina'
-Enabled-SelfMorphView: '%prefix% &9você habilitou a visualização pessoal para morphs!'
-Disabled-SelfMorphView: '%prefix% &9Você desativou a visão de si para morphs!'
-Enabled-Gadgets: '%prefix% &9você habilitou gadgets!'
-Disabled-Gadgets: '%prefix% &9você desabilitou gadgets!'
-Not-Allowed-From-Console: '&c&lIsso não pode ser executado a partir do console!'
-World-Disabled: '%prefix% &c&lCosméticos estão desativados neste mundo!'
-Disabled-Command-Holding-Message: '%prefix% &c&lVocê não pode usar esse comando enquanto
-   segurando cosméticos!'
-Disabled-Command-Wearing-Message: '%prefix% &c&lVocê não pode usar esse comando enquanto
-   vestindo cosméticos!
+  Despawn: '&c&lDespawn'
+  Summon: '&b&lSummon'
+  Unsummon: '&c&lUnsummon'
+  Equip: '&b&lEquip'
+  Unequip: '&c&lUnequip'
+  Morph: '&b&lMorph into'
+  Unmorph: '&c&lUnmorph from'
+  Previous-Page: '&c&lPrevious Page'
+  Next-Page: '&a&lNext Page'
+Enabled-SelfMorphView: '%prefix% &9you enabled self view for morphs!'
+Disabled-SelfMorphView: '%prefix% &9you disabled self view for morphs!'
+Enabled-Gadgets: '%prefix% &9you enabled gadgets!'
+Disabled-Gadgets: '%prefix% &9you disabled gadgets!'
+Not-Allowed-From-Console: '&c&lThis can''t be executed from console!'
+World-Disabled: '%prefix% &c&lCosmetics are disabled in this world!'
+Disabled-Command-Holding-Message: '%prefix% &c&lYou can''t use this command while
+  holding cosmetics!'
+Disabled-Command-Wearing-Message: '%prefix% &c&lYou can''t use this command while
+  wearing cosmetics!'

@@ -64,3 +64,33 @@ worlds:
       Time: 0
       Sound: ENTITY_CHICKEN_HURT
       Commands: []
+  Survival:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  Mineraￃￃo:
+    Enabled: true
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []

@@ -1,12 +1,12 @@
 Homes:
   _Gre:
     Padrao:
-      Mundo: world
-      X: 132.5
-      Y: 66.80948674189209
-      Z: 256.5
-      Yaw: 0.0
-      Pitch: 0.0
+      Mundo: Oficial
+      X: 0.5
+      Y: 73.0
+      Z: 0.5
+      Yaw: 0.086163014
+      Pitch: 4.0120015
     loja1:
       Mundo: world
       X: 132.5
@@ -15,3 +15,19 @@ Homes:
       Yaw: 0.0
       Pitch: 0.0
       Aberta: true
+  ChupChup_:
+    Padrao:
+      Mundo: Oficial
+      X: 0.5105430349771747
+      Y: 73.0
+      Z: 0.8270589979219287
+      Yaw: 3.986119
+      Pitch: 4.3500047
+  Sasuke310:
+    Padrao:
+      Mundo: Oficial
+      X: -322.38930674593865
+      Y: 9.0
+      Z: -71.66410157106466
+      Yaw: -0.8153238
+      Pitch: -21.600046

@@ -1,21 +1,22 @@
 lastAccountName: _Gre
 timestamps:
-  login: 1518268591359
-  logout: 1518266946620
-  lastteleport: 1518233585427
-ipAddress: 187.19.0.57
-logoutlocation:
-  world: world
-  x: 132.30000001192093
-  y: 70.36932127891106
-  z: 259.25773903943
-  yaw: 0.0
-  pitch: 0.0
+  login: 1519093874318
+  logout: 1519143313032
+  lastteleport: 1519140024357
+ipAddress: 187.19.12.171
 afk: false
+logoutlocation:
+  world: Oficial
+  x: -319.5468646782205
+  y: 12.30800880864161
+  z: -111.46873062962733
+  yaw: -269.48486
+  pitch: 13.054229
+money: '1249.0'
 lastlocation:
-  world: world
-  x: 132.5
-  y: 67.0
-  z: 256.5
-  yaw: 0.0
-  pitch: 0.0
+  world: Oficial
+  x: 0.0
+  y: 65.0
+  z: 0.0
+  yaw: -58.788593
+  pitch: 1.205037

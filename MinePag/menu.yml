@@ -1,0 +1,23 @@
+# Personalizacao do menu principal
+# Formato: ID:DATA#SLOT#NOME CUSTOMIZADO DO ITEM
+itens:
+- 160:4#0#&eServidor
+- 160:4#1#&eServidor
+- 160:4#3#&eServidor
+- 160:4#5#&eServidor
+- 160:4#7#&eServidor
+- 160:4#8#&eServidor
+- 160:4#9#&eServidor
+- 160:4#17#&eServidor
+- 160:4#36#&eServidor
+- 160:4#44#&eServidor
+- 160:4#45#&eServidor
+- 160:4#46#&eServidor
+- 160:4#48#&eServidor
+- 160:4#49#&eServidor
+- 160:4#50#&eServidor
+- 160:4#52#&eServidor
+- 160:4#53#&eServidor
+especiais:
+  cash: '266#4#&6Seu saldo: &f@saldo'
+menu_name: MinePag - Loja de cash

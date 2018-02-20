@@ -67,19 +67,19 @@ Categories:
 Economy: Vault
 # Treasure Chests Settings.
 # /uc reload will not be enough to toggle them!
-#
+# 
 # NOTE: Money will be given
 #       to player even if disabled in case
 #       there is nothing to give!
-#
-#
+# 
+# 
 # About Treasure Chests designs:
 # For a list of effect: http://pastebin.com/CVKkufck
 # For the chest-types: NORMAL or ENDER
 # Material syntax: 'id:data'
 # You CAN make more designs just copy one, paste it and modify.
 # Not twice same name!
-#
+# 
 # Some infos:
 # center-block: The block on the center.
 # around-center: Blocks around the center
@@ -88,11 +88,11 @@ Economy: Vault
 # barriers: the barrier.
 # chest-type: The chest type (NORMAL or ENDER)
 # effect: The effect (complete list: http://pastebin.com/CVKkufck)
-#
+# 
 # For permission command:
 # Change it to correspond to your Permissions plugin!
 # Default one is Pex's.
-#
+# 
 TreasureChests:
   Enabled: false
   Key-Price: 1000
@@ -216,12 +216,12 @@ Fill-Blank-Slots-With-Item:
   Enabled: false
   Item: '160:15'
 # Toggle this to allow players to rename pets.
-#
+# 
 # Permission-Required:
 # If true, the permission:
 # ultracosmetics.pets.rename
 # will be required to rename a pet.
-#
+# 
 # Requires Money:
 # If true, money will be required
 # to rename a pet.
@@ -243,9 +243,9 @@ Mounts-Block-Trails: true
 # for gadgets, for limited uses.
 # Ammo can be given with /uc give ammo
 # or bought from menu when activating gadget.
-#
+# 
 # For the system: 'file' or 'mysql'
-#
+# 
 # If you set mysql, please fill the MySQL infos.
 Ammo-System-For-Gadgets:
   Enabled: true
@@ -261,7 +261,7 @@ Ammo-System-For-Gadgets:
   # corresponding to your ammo.
   Show-Ammo-In-Menu-As-Item-Amount: true
 # The menu item settings.
-#
+# 
 # List for type: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 Menu-Item:
   Give-On-Join: false
@@ -271,7 +271,7 @@ Menu-Item:
   Data: 0
   Displayname: '&6&lCosmeticos'
 # Settings related to permissions.
-#
+# 
 # List for "Type" https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
 No-Permission:
   Show-In-Lore: true
@@ -326,6 +326,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Chickenator:
     # Description of this cosmetic.
     Description:
@@ -340,6 +348,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   ColorBomb:
     # Description of this cosmetic.
     Description:
@@ -354,6 +370,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   DiscoBall:
     # Description of this cosmetic.
     Description:
@@ -368,6 +392,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   EtherealPearl:
     # Description of this cosmetic.
     Description:
@@ -383,6 +415,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   FleshHook:
     # Description of this cosmetic.
     Description:
@@ -399,6 +439,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   MelonThrower:
     # Description of this cosmetic.
     Description:
@@ -413,6 +461,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   BlizzardBlaster:
     # Description of this cosmetic.
     Description:
@@ -427,6 +483,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   PortalGun:
     # Description of this cosmetic.
     Description:
@@ -441,6 +505,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   ExplosiveSheep:
     # Description of this cosmetic.
     Description:
@@ -455,6 +527,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   PaintballGun:
     # Description of this cosmetic.
     Description:
@@ -484,6 +564,14 @@ Gadgets:
     - REDSTONE_BLOCK
     - CHEST
     - TRAPPED_CHEST
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   ThorHammer:
     # Description of this cosmetic.
     Description:
@@ -498,6 +586,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   AntiGravity:
     # Description of this cosmetic.
     Description:
@@ -512,6 +608,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   SmashDown:
     # Description of this cosmetic.
     Description:
@@ -526,6 +630,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Rocket:
     # Description of this cosmetic.
     Description:
@@ -540,6 +652,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   BlackHole:
     # Description of this cosmetic.
     Description:
@@ -554,6 +674,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Tsunami:
     # Description of this cosmetic.
     Description:
@@ -570,6 +698,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   TNT:
     # Description of this cosmetic.
     Description:
@@ -584,6 +720,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   FunGun:
     # Description of this cosmetic.
     Description:
@@ -598,6 +742,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Parachute:
     # Description of this cosmetic.
     Description:
@@ -612,6 +764,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   QuakeGun:
     # Description of this cosmetic.
     Description:
@@ -626,6 +786,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   GhostParty:
     # Description of this cosmetic.
     Description:
@@ -641,6 +809,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Firework:
     # Description of this cosmetic.
     Description:
@@ -655,6 +831,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   ChristmasTree:
     # Description of this cosmetic.
     Description:
@@ -669,6 +853,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   FreezeCannon:
     # Description of this cosmetic.
     Description:
@@ -683,6 +875,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Snowball:
     # Description of this cosmetic.
     Description:
@@ -697,6 +897,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   PartyPopper:
     # Description of this cosmetic.
     Description:
@@ -711,6 +919,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
   Trampoline:
     # Description of this cosmetic.
     Description:
@@ -725,6 +941,14 @@ Gadgets:
     # if true, it'll be possible to find
     # it in treasure chests
     Can-Be-Found-In-Treasure-Chests: true
+    Ammo:
+      # You want this gadget to need ammo?
+      Enabled: true
+      # What price for the ammo?
+      Price: 500
+      # And how much ammo is given
+      # when bought?
+      Result-Amount: 20
 Mounts:
   DruggedHorse:
     # Description of this cosmetic.

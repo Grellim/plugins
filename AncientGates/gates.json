@@ -1,1 +1,160 @@
-{}
+{
+  "Mineração": {
+    "froms": [
+      {
+        "world": "Oficial",
+        "x": 0.0,
+        "y": 65.0,
+        "z": -35.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "Mineraￃￃo",
+        "x": 217.6568940753179,
+        "y": 78.0,
+        "z": 277.5149272491841,
+        "yaw": -272.4722,
+        "pitch": 0.999409
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "WATER",
+    "command": "rtp",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "Portais1": {
+    "froms": [
+      {
+        "world": "Oficial",
+        "x": -304.0,
+        "y": 10.0,
+        "z": -75.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "WATER",
+    "cost": 0.0
+  },
+  "Survival": {
+    "froms": [
+      {
+        "world": "Oficial",
+        "x": -35.0,
+        "y": 65.0,
+        "z": 0.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "Survival",
+        "x": -136.41442855456785,
+        "y": 68.0,
+        "z": 248.0,
+        "yaw": 44.844597,
+        "pitch": 59.90755
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "WATER",
+    "command": "rtp",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "Survival2": {
+    "froms": [
+      {
+        "world": "Oficial",
+        "x": -304.0,
+        "y": 10.0,
+        "z": -134.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "Survival",
+        "x": -136.0,
+        "y": 69.0,
+        "z": 248.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "WATER",
+    "command": "rtp",
+    "commandtype": "PLAYER",
+    "cost": 0.0
+  },
+  "teste": {
+    "froms": [
+      {
+        "world": "Oficial",
+        "x": 0.0,
+        "y": 66.0,
+        "z": 26.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "world",
+        "x": 150.41337289464295,
+        "y": 65.0,
+        "z": 272.24973064449546,
+        "yaw": -268.79916,
+        "pitch": 31.200108
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "PORTAL",
+    "cost": 0.0
+  },
+  "Tutoriais": {
+    "froms": [
+      {
+        "world": "Oficial",
+        "x": 0.0,
+        "y": 65.0,
+        "z": 35.0,
+        "yaw": 0.0,
+        "pitch": 0.0
+      }
+    ],
+    "tos": [
+      {
+        "world": "Oficial",
+        "x": -380.2351786257197,
+        "y": 12.0,
+        "z": -104.50594063440147,
+        "yaw": -88.866455,
+        "pitch": 5.6518626
+      }
+    ],
+    "entities": true,
+    "vehicles": false,
+    "inventory": "TRUE",
+    "material": "WATER",
+    "cost": 0.0
+  }
+}

@@ -1,0 +1,22 @@
+#  This is a config file for commands.
+#  You can set the command names alone or subcommands :)
+#  You need to reload/restart your server after you edit this file.
+# -------------------------------------------------------------------
+
+Commands:
+  Alone:
+    Use: true
+    Register: "cadastrar"
+    GetNotifications: "notif"
+    Report: "reportar"
+    GetUser: "infouser"
+    SetGroup: "setgrupo"
+  SubCommand:
+    Use: true
+    Main: "forum"
+    Register: "cadastrar"
+    GetNotifications: "notif"
+    Report: "reportar"
+    GetUser: "infouser"
+    SetGroup: "setgrupo"
+    

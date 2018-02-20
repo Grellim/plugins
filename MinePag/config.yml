@@ -1,0 +1,119 @@
+# =============== MinePag Configuration ================
+# 
+# Em "SECRET_ID" deve ser colocado a SECRET ID do servidor cadastrado pelo painel,
+# Voce encontra isso em https://minepag.com/dashboard/servers
+# 
+# Em "MySQL" é a configuração do banco de dados MySQL
+# Por padrão é usado SQLite para salvar os dados dos jogadores
+# 
+# Em "comandos" são os comandos a serem executados in-game
+# - cash    => comando relacionado a cash (para saber quanto de cash o player tem, enviar cash para outro player...)
+# - shop    => comando para abrir o menu GUI
+# - ativar  => comando para ativar uma chave
+# - helper  => texto que ira aparecer quando o player digitar o comando de cash (/cash por default)
+# 
+# Em "chargeback" é a configuração para quando um pagamento entrar em chargeback/disputa
+# - enable  => habilitar comando
+# - comando => comando a ser executado
+# 
+# Em "key_length" é o tamanho da key gerada com o comando /{comando_cash} gerarkey <quantia_cash>
+# 
+# Em "produtos" é a configuração do pruduto quando abrir o menu do shop
+# - descricao          => é o lore do item que aparece na loja
+# - broadcast.enable   => habilitar mensagem broadcast
+# - broadcast.msg      => mensagem que sera enviada para todo o servidor, quando um player comprar um item na loja
+# 
+# Em "buy_details" é a mensagem exibida para o jogador apos a compra de um item
+# 
+# Em "villager" é a configuração do villager
+# - nome => nome do villager
+# 
+# Em "mensagens" é a configuração de algumas mensagens do sistema
+# 
+# Em "config_version" isto é para uso interno do sistema e não deve ser alterado! :D
+# 
+# Em caso de duvidas, voce pode entrar em contato pelo suporte online no site ou por ticket: https://minepag.com/cliente/tickets
+# 
+# Este plugin tem suporte ha o PlaceholderAPI, use a variavel: %minepag_cash%
+# Este plugin tem suporte ha o MVdWPlaceholderAPI, use a variavel: {minepag_cash}
+
+
+SECRET_ID: d4441c0138ad6c7bb941
+MySQL:
+  utilizar: false
+  host: 127.0.0.1
+  usuario: root
+  senha: irineu
+  database: minecraft
+comandos:
+  cash: cash
+  shop: shop
+  ativar: ativar
+  helper:
+  - ''
+  - '&6MinePag &f- Lista de comandos'
+  - '- &7/{cashcmd}&8&o:&f Mostrar este menu.'
+  - '- &7/{cashcmd} ver&8&o:&f Mostrar seu saldo.'
+  - '- &7/{cashcmd} enviar <player> <quantia>&8&o: &fEnviar uma cash para outras pessoas.'
+  - '- &7/{shopcmd}&8&o: &fAbrir a loja para comprar itens.'
+  - '- &7/{ativarcmd} <key>&8&o: &fAtivar uma key de presente.'
+chargeback:
+  enable: false
+  comando: ban @player
+key_length: 10
+produtos:
+  descricao:
+  - ''
+  - '&eCusto: &f@custo cash'
+  - '&eQuantidade: &f@amount'
+  - ''
+  broadcast:
+    enable: true
+    msg: '&6[MinePag] &f@player&e comprou &f@item&e no shop!'
+buy_details:
+- ''
+- '&aCompra finalizada!'
+- '&aProduto: &f@produto'
+- '&aCusto: &f@custo cash'
+- ''
+villager:
+  nome: MinePag
+mensagens:
+  saldo: '&6[Cash] Você possui: &f@saldo'
+  saldo_de: '&f@player&a possui &f@saldo'
+  error: '&cDesculpe, ocorreu um problema'
+  inv_error: '&cVocê não tem espaço suficiente no inventário'
+  no_balance: '&cVocê não possui cash suficiente para completar a compra.'
+  error2: '&cNão foi possivel completar a compra.'
+  no_perm: '&cVocê não tem permissão para executar este comando.'
+  set: '&aVocê setou o saldo de @player para &f@cash'
+  give: '&aVocê adicionou &f@cash&a para &f@player'
+  enviar_error: '&cVocê não pode enviar cash para si mesmo.'
+  enviou: '&aVocê enviou &6@saldo&a para&f @player'
+  recebeu: '&aVocê recebeu &6@saldo&a de &f@player'
+  sem_saldo: '&cVocê não possui cash suficiente.'
+  key_invalida: '&cKey invalida'
+  ativado: '&aVocê ativou &f@cash&a com sucesso!'
+  ativado_global: '&a@player ativou &f@cash&a de cash com sucesso!'
+  shop_use: '&cUse: /shop'
+  no_player: '&cO jogador @player não foi encontrado!'
+  villager:
+    set: '&eO Villager foi setado.'
+    del:
+      success: '&eO Villager foi removido.'
+      error: '&cNao existe um Villager perto de voce! @newline&c* O raio de remoção
+        é de apenas 3 blocos.'
+  commands:
+    gerarkey:
+      no_arguments: '&cUse: /{cashcmd} gerarkey <quantia>'
+      invalid_argument: '&cA quantia deve ser um número válido.'
+    give:
+      no_arguments: '&cUse: /{cashcmd} give <player> <quantia>'
+      invalid_argument: '&cA quantia deve ser um número válido.'
+    set:
+      no_arguments: '&cUse: /{cashcmd} set <player> <quantia>'
+      invalid_argument: '&cA quantia deve ser um número válido.'
+    enviar:
+      no_arguments: '&cUse: /{cashcmd} enviar <player> <quantia>'
+      invalid_argument: '&cA quantia deve ser um número válido.'
+config_version: 1.1.7

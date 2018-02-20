@@ -256,11 +256,11 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:540 msg:&6[AClear] &cItens setão apagados em &4+remaining &csegundos!'
-        - 'time:570 msg:&6[AClear] &cItens setão apagados em &4+remaining &csegundos!'
-        - 'time:580 msg:&6[AClear] &cItens setão apagados em &4+remaining &csegundos!'
-        - 'time:590 msg:&6[AClear] &cItens setão apagados em &4+remaining &csegundos!'
-        - 'time:595 msg:&6[AClear] &cItens setão apagados em &4+remaining &csegundos!'
+        - 'time:540 msg:&6[AClear] &cItens serão apagados em &4+remaining &csegundos!'
+        - 'time:570 msg:&6[AClear] &cItens serão apagados em &4+remaining &csegundos!'
+        - 'time:580 msg:&6[AClear] &cItens serão apagados em &4+remaining &csegundos!'
+        - 'time:590 msg:&6[AClear] &cItens serão apagados em &4+remaining &csegundos!'
+        - 'time:595 msg:&6[AClear] &cItens serão apagados em &4+remaining &csegundos!'
 
 #What should be removed during /lagg clear
 command-remove:

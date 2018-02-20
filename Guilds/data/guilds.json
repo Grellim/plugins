@@ -1,0 +1,26 @@
+{
+  "VpM": {
+    "prefix": "",
+    "members": [
+      {
+        "uuid": "2317b44c-d3ca-3b6a-baee-eff381b3c9a4",
+        "role": 0
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [],
+    "pendingAllies": []
+  },
+  "Diretor": {
+    "prefix": "",
+    "members": [
+      {
+        "uuid": "2778f070-908e-3ef7-9bf2-fc709b1938bc",
+        "role": 0
+      }
+    ],
+    "allies": [],
+    "invitedMembers": [],
+    "pendingAllies": []
+  }
+}

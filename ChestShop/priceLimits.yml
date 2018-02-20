@@ -10,3 +10,4 @@ min:
     '979': 1.03
   sell_price:
     '989': 0.51
+uses_materials: true

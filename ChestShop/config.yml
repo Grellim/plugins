@@ -90,3 +90,17 @@ AUTHME_ALLOW_UNREGISTERED: false
 HEROES_EXP: 100.0
 #How much Heroes exp should people get for creating a ChestShop?
 
+
+CACHE_SIZE: 1000
+#How large should the internal uuid and name caches be?
+SHOW_MESSAGE_FULL_SHOP: true
+#Do you want to show "Full shop" messages?
+
+CSTOGGLE_TOGGLES_OUT_OF_STOCK: false
+#Can players hide the "Out of stock" messages with /cstoggle?
+CSTOGGLE_TOGGLES_FULL_SHOP: false
+#Can players hide the "Full shop" messages with /cstoggle?
+
+SHOWITEM_MESSAGE: true
+#Add icons and make item names hoverable in transaction messages when ShowItem is installed?
+
