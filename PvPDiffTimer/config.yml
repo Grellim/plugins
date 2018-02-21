@@ -1,20 +1,43 @@
 Enable-Debug: false
 Default:
   Difficulty: NORMAL
+<<<<<<< HEAD
   PvP-On-Message: '&4Pvp ativado! Dificuldade {difficulty}'
   PvP-Off-Message: '&aPvp desativado! Dificuldade {difficulty}'
 worlds:
   Oficial:
     Enabled: false
+=======
+  PvP-On-Message: '&4Já é de noite!, o PVP foi ativado! ({difficulty})'
+  PvP-Off-Message: '&aO sol apareceu!,o PVP foi desativado ({difficulty})'
+worlds:
+  world:
+    Enabled: true
     Only-Difficulty: false
     PvP-On:
-      Message: '&4It''s Night! PvP is enabled! ({difficulty})'
+      Message: '&4Já é de noite!, o PVP foi ativado! ({difficulty})'
       Difficulty: HARD
       Time: 13000
       Sound: AMBIENT_CAVE
       Commands: []
     PvP-Off:
-      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Message: '&aO sol apareceu!,o PVP foi desativado ({difficulty})'
+      Difficulty: NORMAL
+      Time: 0
+      Sound: ENTITY_CHICKEN_HURT
+      Commands: []
+  world_nether:
+    Enabled: true
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
+    Only-Difficulty: false
+    PvP-On:
+      Message: '&4Já é de noite!, o PVP foi ativado! ({difficulty})'
+      Difficulty: HARD
+      Time: 13000
+      Sound: AMBIENT_CAVE
+      Commands: []
+    PvP-Off:
+      Message: '&aO sol apareceu!,o PVP foi desativado ({difficulty})'
       Difficulty: NORMAL
       Time: 0
       Sound: ENTITY_CHICKEN_HURT
@@ -23,13 +46,21 @@ worlds:
     Enabled: true
     Only-Difficulty: false
     PvP-On:
+<<<<<<< HEAD
       Message: '&4Pvp ativado! Dificuldade {difficulty}'
+=======
+      Message: '&4Já é de noite!, o PVP foi ativado! ({difficulty})'
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
       Difficulty: HARD
       Time: 13000
       Sound: AMBIENT_CAVE
       Commands: []
     PvP-Off:
+<<<<<<< HEAD
       PvP-Off-Message: '&aPvp desativado! Dificuldade {difficulty}'
+=======
+      Message: '&aO sol apareceu!,o PVP foi desativado ({difficulty})'
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
       Difficulty: NORMAL
       Time: 0
       Sound: ENTITY_CHICKEN_HURT
@@ -38,13 +69,17 @@ worlds:
     Enabled: false
     Only-Difficulty: false
     PvP-On:
+<<<<<<< HEAD
       Message: '&4Pvp ativado! Dificuldade {difficulty}'
+=======
+      Message: '&4Já é de noite!, o PVP foi ativado! ({difficulty})'
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
       Difficulty: HARD
       Time: 13000
       Sound: AMBIENT_CAVE
       Commands: []
     PvP-Off:
-      Message: '&aThe sun rises! PvP is off! ({difficulty})'
+      Message: '&aO sol apareceu!,o PVP foi desativado ({difficulty})'
       Difficulty: NORMAL
       Time: 0
       Sound: ENTITY_CHICKEN_HURT

@@ -253,6 +253,7 @@ town:
   max_claim_radius_value: '10'
   # Maximum number of towns allowed on the server.
   town_limit: '30000'
+<<<<<<< HEAD
  
   # Minimum number of plots any towns plot must be from the next town's own plots.
   # This will prevent town encasement to a certain degree.
@@ -262,6 +263,17 @@ town:
   # This will prevent someone founding a town right on your doorstep
   min_distance_from_town_homeblock: '10'
  
+=======
+
+  # Minimum number of plots any towns plot must be from the next town's own plots.
+  # This will prevent town encasement to a certain degree.
+  min_plot_distance_from_town_plot: '1'
+
+  # Minimum number of plots any towns home plot must be from the next town.
+  # This will prevent someone founding a town right on your doorstep
+  min_distance_from_town_homeblock: '10'
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   # Maximum distance between homblocks.
   # This will force players to build close together.
   max_distance_between_homeblocks: '0'
@@ -360,8 +372,13 @@ new_world_settings:
       enabled: 'true'
       entities: Creeper,EnderCrystal,EnderDragon,Fireball,SmallFireball,LargeFireball,TNTPrimed,ExplosiveMinecart
       delay: 60s
+<<<<<<< HEAD
  
  
+=======
+
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   ############################################################
   # +------------------------------------------------------+ #
   # |                Global town settings                  | #
@@ -451,7 +468,11 @@ plugin:
     # Flatfile backup settings.
     daily_backups: 'true'
     backups_are_deleted_after: 15d
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     # Valid entries are: zip, none.
     flatfile_backup: zip
  
@@ -482,7 +503,11 @@ plugin:
       # When set for more than 0m, the amount of time (in minutes) which must have passed between
       # a player's first log in and when they can be invited to a town.
       cooldowntime: 1m
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     # True to attempt to use GroupManager, PEX, bPermissions, Permissions2/3 or BukkitPerms
     # False to disable permission checks and rely on Towny settings.
     using_permissions: 'true'
@@ -762,7 +787,11 @@ economy:
   town_prefix: town-
   # Prefix to apply to all nation economy accounts.
   nation_prefix: nacao-
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   spawn_travel:
     # Cost to use /town spawn
     price_town_spawn_travel: '5.0'
@@ -776,7 +805,11 @@ economy:
  
   # The daily upkeep to remain neutral during a war. Neutrality will exclude you from a war event, as well as deterring enemies.
   price_nation_neutrality: '350.0'
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   new_expand:
     # How much it costs to start a nation.
     price_new_nation: '5000.0'
@@ -790,7 +823,11 @@ economy:
     price_purchased_bonus_townblock: '150.0'
     # How much every extra bonus block costs more. Set to 1 to deactivate this. 1.2 means +20% to every bonus claim block cost.
     price_purchased_bonus_townblock_increase: '1.3'
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   death:
     # Either fixed or percentage.
     # For percentage 1.0 would be 100%. 0.01 would be 1%.
@@ -799,11 +836,19 @@ economy:
     price_death_pvp_only: 'false'
  
     price_death: '1.0'
+<<<<<<< HEAD
  
     price_death_town: '2.0'
  
     price_death_nation: '5.0'
  
+=======
+
+    price_death_town: '2.0'
+
+    price_death_nation: '5.0'
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   banks:
     # Maximum amount of money allowed in town bank
     # Use 0 for no limit
@@ -849,8 +894,13 @@ economy:
     # any funds the town gains via upkeep at a new day
     # will be shared out between the plot owners.
     use_plot_payments: 'true'
+<<<<<<< HEAD
  
  
+=======
+
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
   ############################################################
   # +------------------------------------------------------+ #
   # |                 Jail Plot settings                   | #
@@ -947,7 +997,11 @@ war:
     # This setting SHOULD NOT BE USED unless you want the most chaotic war possible.
     # The editable_materials list in the Warzone Block Permission section should be used instead.
     allow_block_griefing: 'true'
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     # A townblock takes damage every 5 seconds that an enemy is stood in it.
     block_hp:
       town_block_hp: '60'

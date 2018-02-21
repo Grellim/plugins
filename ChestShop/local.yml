@@ -35,6 +35,7 @@ RESTRICTED_SIGN_CREATED: "Placa privada criada com sucesso!"
 ITEM_GIVEN: "Dando %item para %player."
 
 PLAYER_NOT_FOUND: "Player nao encontrado!"
+<<<<<<< HEAD
 
 NO_ECONOMY_ACCOUNT: "Economy account from shop owner doesn't exist!"
 NOT_ENOUGH_SPACE_IN_YOUR_SHOP: "%material&7 shop at &r%world/%x/%y/%z&7 is full! (%seller tried to sell)"
@@ -45,3 +46,5 @@ NO_ITEM_IN_HAND: "You don't have an item in your hand to autofill!"
 TOGGLE_MESSAGES_OFF: "You will no longer receive messages from your shop(s)."
 TOGGLE_MESSAGES_ON: "You will now receive messages from your shop(s)."
 
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6

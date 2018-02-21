@@ -24,10 +24,13 @@ groups:
     - -ancientgates.use.WarpVipJoin
     - -ancientgates.use.WarpVipSpawn
     - -ancientgates.use.WarpVipPortals
+<<<<<<< HEAD
     - extrakits.kit.Inicial
     - crazyauctions.access
     - ahome.home.usar
     - ahome.limite.membro
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     worlds:
       Survival:
         permissions:
@@ -52,9 +55,12 @@ groups:
     - -company.shop.create
     - -company.bank
     - essentials.getpos
+<<<<<<< HEAD
     - crazyauctions.veiw
     - crazyauctions.sell.3
     - crazyauctions.bid.1
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     worlds:
       TheEnd:
         permissions:
@@ -71,9 +77,12 @@ groups:
     - ultracosmetics.emotes.happy
     - craftingframes.use
     - color.chat
+<<<<<<< HEAD
     - extrakits.kit.Doador
     - crazyauctions.sell.4
     - crazyauctions.bid.3
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     worlds:
       TheEnd:
         permissions:
@@ -91,11 +100,14 @@ groups:
     - company.bank
     - essentials.afk
     - essentials.back.ondeath
+<<<<<<< HEAD
     - -extrakits.kit.Doador
     - extrakits.kit.Empreendedor
     - crazyauctions.sell.5
     - crazyauctions.bid.3
     - ahome.bypass.delay
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     inheritance:
     - Doador
   Socio:
@@ -104,6 +116,7 @@ groups:
       prefix: '&e&lSOCIO &r'
     permissions:
     - ancientgates.econbypass
+<<<<<<< HEAD
     - essentials.compass
     - essentials.condense
     - essentials.lightning
@@ -112,6 +125,12 @@ groups:
     - crazyauctions.sell.8
     - crazyauctions.bid.5
     - ahome.homepublica.usar
+=======
+    - ChestShop.shop.*
+    - essentials.compass
+    - essentials.condense
+    - essentials.lightning
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     inheritance:
     - Empreendedor
   Financiador:
@@ -124,12 +143,15 @@ groups:
     - essentials.afk.auto
     - essentials.feed
     - essentials.ignore
+<<<<<<< HEAD
     - -extrakits.kit.Socio
     - extrakits.kit.Financiador
     - ChestShop.shop.*
     - crazyauctions.sell.15
     - crazyauctions.bid.8
     - ahome.limite.vip
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     inheritance:
     - Socio
   Empresario:
@@ -142,10 +164,13 @@ groups:
     - essentials.fly
     - essentials.hat
     - teleport.cooldown.bypass
+<<<<<<< HEAD
     - -extrakits.kit.Financiador
     - extrakits.kit.Empresario
     - crazyauctions.sell.20
     - crazyauctions.bid.10
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     inheritance:
     - Financiador
   Gerente:
@@ -158,9 +183,12 @@ groups:
     - essentials.feed.cooldown.bypass
     - essentials.fly.safelogin
     - essentials.tptoggle
+<<<<<<< HEAD
     - -extrakits.kit.Empresario
     - extrakits.kit.Genrente
     - ahome.limite.staff
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     inheritance:
     - Empresario
   Ajudante:
@@ -169,7 +197,10 @@ groups:
       rank: '9'
     permissions:
     - craftingframes.use
+<<<<<<< HEAD
     - ahome.bypass.delay
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     - authme.vip
     - ancientgates.list
     - ancientgates.tofrom
@@ -182,7 +213,10 @@ groups:
     - essentials.mute.exempt
     - essentials.joinfullserver
     - essentials.tptoggle
+<<<<<<< HEAD
     - extrakits.kit.staff
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     inheritance:
     - Membro
   Moderador:
@@ -224,7 +258,10 @@ groups:
       rank: '11'
     permissions:
     - ancientgates.*
+<<<<<<< HEAD
     - ahome.limite.staff
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
     - authme.admin.*
     - ChestShop.admin
     - company.admin
@@ -267,7 +304,11 @@ groups:
     - Diretor
   Construtor:
     options:
+<<<<<<< HEAD
       prefix: '&8&l»&3&lBUILD &r'
+=======
+      prefix: '&3[BUILD]'
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6
       rank: '14'
     permissions:
     - essentials.bigtree
@@ -298,5 +339,8 @@ users:
   2778f070-908e-3ef7-9bf2-fc709b1938bc:
     group:
     - Diretor
+<<<<<<< HEAD
     options:
       name: ChupChup_
+=======
+>>>>>>> 89312216415a2ba4b8bf71a0dfd42388690d58a6

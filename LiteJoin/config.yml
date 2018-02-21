@@ -1,81 +1,81 @@
-# 
+#
 # Plugin made by LITEFINE
 # Help: https://www.spigotmc.org/resources/litejoin-hidestream-replacing.25771/
 Settings:
   PlayerJoinMessage:
-    display: false
+    display: true
     displayIfHidden: false
-    message: '&a%player% &fjoin the game.'
+    message: '&8[&2+&8] &e%player% &7entrou no servidor.'
   PlayerQuitMessage:
-    display: false
+    display: true
     displayIfHidden: false
-    message: '&a%player% &fleft the game.'
+    message: '&8[&4-&8] &e%player% &7saiu do servidor.'
   PlayerKickMessage:
-    display: false
+    display: falso
     displayIfHidden: false
-    message: '&a%player% &fkicked from the game.'
+    message: '&a%player% &fKickado do jogo.'
   ClearInventory:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYour inventory was wiped clean.'
+    message: '&fSeu inventário foi limpo.'
   ResetExperience:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYour exp level was wiped clean.'
+    message: '&fSeu nível de expiração foi limpo.'
   Heal:
-    enable: true
+    enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYou were healed.'
+    message: '&fVocê foi curado.'
   Feed:
     enable: true
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYour hunger has been satisfied.'
+    message: '&fSua fome ficou satisfeita.'
   WelcomeMessage:
     enable: true
     needPerms: false
-    message: Hey &e%player%&f! &fChange &athis message&f in the &aLiteJoin&f config!
+    message: &8[&2+&8] &e%player% &7entrou no servidor pela primeira vez!
   DonaterJoinMessage:
     display: false
     displayIfHidden: false
-    message: '%prefix%%name%&r litejoin the game.'
+    message: '%prefix%%name%&r Entrou no servidor!.'
   TitleWelcome:
     enable: true
     needPerms: false
-    firstLine: '&bHey %player%'
-    subLine: This is LiteJoin plugin!
+    firstLine: '&bOlá %player%'
+    subLine: Obrigado por entrar em nosso server!
     fadeIn: 20
     stayTime: 50
     fadeOut: 20
   ActionBarWelcome:
+    enable: falso
+    needPerms: false
+    message: Seja Bem Vindo ao Servidor &a%player%
+  DamageProtection:
     enable: true
     needPerms: false
-    message: Hi &a%player%
-  DamageProtection:
-    enable: false
-    needPerms: false
-    time: 5
-    message: '&a[LJ] &fYou are protected from damage for &a5&f seconds!'
-    endMessage: '&a[LJ] &fYour protection time is &eOVER'
+    time: 10
+    message: '&fVocê está protegido de danos por 10 segundos'
+    endMessage: '&fProteção acabou.'
   Flight:
-    enable: false
+    enable: true
     needPerms: true
     justAllowRise: false
     sendMessage: true
-    message: '&a[LJ] &fFlight enabled for you.'
+    message: '&fVoo ativo.'
   Glow:
     enable: false
     needPerms: false
     sendMessage: true
-    message: '&a[LJ] &fNow you glow.'
+    message: '&fAgora você brilha.'
   Concealment:
     enable: false
     needPerms: true
     sendMessage: true
-    message: '&a[LJ] &fYou were hidden from players.'
+    message: '&fVocê estava escondido dos jogadores.'
   JoinEffects:
     enable: false
     removeOldEffects: true
@@ -91,6 +91,6 @@ Settings:
     offsetY: 2.0
     offsetZ: 0.0
   Other:
-    enableDeathMessages: true
-    spawnTpOnJoin: false
+    enableDeathMessages: false
+    spawnTpOnJoin: true
 Spawn: {}
