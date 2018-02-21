@@ -13,27 +13,27 @@ Settings:
   PlayerKickMessage:
     display: falso
     displayIfHidden: false
-    message: '&a%player% &fkicked from the game.'
+    message: '&a%player% &fKickado do jogo.'
   ClearInventory:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYour inventory was wiped clean.'
+    message: '&a[LJ] &fSeu inventário foi limpo.'
   ResetExperience:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYour exp level was wiped clean.'
+    message: '&a[LJ] &fSeu nível de expiração foi limpo.'
   Heal:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYou were healed.'
+    message: '&a[LJ] &fVocê foi curado.'
   Feed:
     enable: true
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fYour hunger has been satisfied.'
+    message: '&a[LJ] &fSua fome ficou satisfeita.'
   WelcomeMessage:
     enable: true
     needPerms: false
@@ -41,7 +41,7 @@ Settings:
   DonaterJoinMessage:
     display: false
     displayIfHidden: false
-    message: '%prefix%%name%&r litejoin the game.'
+    message: '%prefix%%name%&r Entrou no servidor!.'
   TitleWelcome:
     enable: true
     needPerms: false
@@ -53,7 +53,7 @@ Settings:
   ActionBarWelcome:
     enable: falso
     needPerms: false
-    message: Hi &a%player%
+    message: Seja Bem Vindo ao Servidor &a%player%
   DamageProtection:
     enable: true
     needPerms: false
@@ -70,12 +70,12 @@ Settings:
     enable: false
     needPerms: false
     sendMessage: true
-    message: '&a[LJ] &fNow you glow.'
+    message: '&a[LJ] &fAgora você brilha.'
   Concealment:
     enable: false
     needPerms: true
     sendMessage: true
-    message: '&a[LJ] &fYou were hidden from players.'
+    message: '&a[LJ] &fVocê estava escondido dos jogadores.'
   JoinEffects:
     enable: false
     removeOldEffects: true
