@@ -31,10 +31,10 @@ log-blocked-mods: false
 tab-completion:
   blocked: true
   warn:
-    enabled: false
+    enabled: true
     # If the above option is true and if players spam the tab key,
     # they'll also get spammed with the below message
-    message: '%prefix% &cYou don''t have permission to tab-complete commands.'
+    message: '%prefix% &cVocê não pode usar o tab-complete.'
   notify-admins:
     # Admins will also get spammed if the player spams the tab key.
     enabled: false
@@ -48,14 +48,14 @@ tab-completion:
 #
 # ################################
 # #    Hidden Syntaxes
-# # Blocks every command that has a colon (:) in it. 
+# # Blocks every command that has a colon (:) in it.
 # # An example could be "/bukkit:help", "/essentials:warp", etc.
 # ################################
 hidden-syntaxes:
   blocked: true
-  error-message: '%prefix% &cThat syntax is forbidden.'
+  error-message: '%prefix% &cNão permitido.'
   notify-admins:
-    enabled: true
+    enabled: false
     message: '%prefix% %player% tried to do a command with a hidden syntax. &4(%command%)'
   punish-player:
     enabled: false
@@ -69,9 +69,9 @@ hidden-syntaxes:
 # ################################
 custom-plugins:
   enabled: true
-  plugins: Fully, Custom, Plugins
+  plugins: AotsMCHome, AtosMCEssentials, AtosMCImportadoGuild, MyPat, Towny, AtosMCImportadoCompani, AtosMCComplementares.
   # This message will only be shown if the above option is set to false.
-  error-message: '%prefix% &4Your abuse has been sent to the admins.'
+  error-message: '%prefix% &4Sua ação foi notificada.'
   notify-admins:
     enabled: true
     message: '%prefix% %player% tried to do the command &4%command%'
@@ -87,7 +87,7 @@ custom-plugins:
 # ################################
 custom-commands:
   blocked: true
-  error-message: '%prefix% You don''t have permission to do this. &4(%command%)'
+  error-message: '%prefix% Não pode usar este comando. &4(%command%)'
   commands:
   - a
   - about
@@ -113,7 +113,7 @@ custom-commands:
 # ################################
 opped-player-commands:
   blocked: true
-  error-message: '%prefix% This command can only be executed from the console. &4(%command%)'
+  error-message: '%prefix% Comando único do console. &4(%command%)'
   commands:
   - ezp
   - reload
@@ -121,6 +121,7 @@ opped-player-commands:
   - command_without_slash
   bypassed-players:
   - Notch
+  - _Gre
   notify-bypassed-players:
     enabled: true
     message: '%prefix% Opped player %player% tried to do &4%command%'
@@ -134,7 +135,7 @@ opped-player-commands:
 # ################################
 sign-hack:
   blocked: true
-  error-message: '%prefix% &4Why are you sign-hacking? Stop!'
+  error-message: '%prefix% &4Tentando usar hack com placa? Pare!'
   notify-admins:
     enabled: true
     message: '%prefix% &4&lWARN &c- %player% attempted to do the sign exploit, but failed.'
@@ -154,11 +155,11 @@ mods:
   schematica:
     block: false
   voxelmap:
-    block: false
+    block: true
   damageindicators:
     block: false
   reiminimap:
-    block: false
+    block: true
   forge:
     block: false
     warning-message: '&4WARN &c- &f%player% tried to join with the Forge mod, but failed.'
@@ -187,7 +188,7 @@ mods:
 ###
 #  %errormessage% :
 # This placeholder will display the same message as if the punishment wasn't enabled.
-# In this case, if you haven't changed the default config, it will display the 
+# In this case, if you haven't changed the default config, it will display the
 # "You don't have permission to perform..." message when the player is kicked.
 ###
 #  %player% :

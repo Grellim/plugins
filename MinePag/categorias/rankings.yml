@@ -1,0 +1,25 @@
+# Nome da categoria
+nome: '&b&lRankings'
+# Id do icone
+id: 403
+data: 0
+# Slot do menu principal
+slot: 20
+# Descricao
+lore:
+- ''
+- '&7Veja os rankins disponíeis.'
+- ''
+# Produtos
+produtos:
+  Picareta-1:
+    nome: '&6&lDoador'
+    slot: 10
+    id: 403
+    data: 0
+    fisico: false # Caso for 'true' o jogador irá receber "fisicamente" este item, caso contrario, ele nao recebera.
+    enchants: none
+    quantidade: 1
+    custo: 20
+    comandos:
+    - 'darvip'

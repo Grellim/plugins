@@ -1,39 +1,39 @@
 # =============== MinePag Configuration ================
-# 
+#
 # Em "SECRET_ID" deve ser colocado a SECRET ID do servidor cadastrado pelo painel,
 # Voce encontra isso em https://minepag.com/dashboard/servers
-# 
+#
 # Em "MySQL" é a configuração do banco de dados MySQL
 # Por padrão é usado SQLite para salvar os dados dos jogadores
-# 
+#
 # Em "comandos" são os comandos a serem executados in-game
 # - cash    => comando relacionado a cash (para saber quanto de cash o player tem, enviar cash para outro player...)
 # - shop    => comando para abrir o menu GUI
 # - ativar  => comando para ativar uma chave
 # - helper  => texto que ira aparecer quando o player digitar o comando de cash (/cash por default)
-# 
+#
 # Em "chargeback" é a configuração para quando um pagamento entrar em chargeback/disputa
 # - enable  => habilitar comando
 # - comando => comando a ser executado
-# 
+#
 # Em "key_length" é o tamanho da key gerada com o comando /{comando_cash} gerarkey <quantia_cash>
-# 
+#
 # Em "produtos" é a configuração do pruduto quando abrir o menu do shop
 # - descricao          => é o lore do item que aparece na loja
 # - broadcast.enable   => habilitar mensagem broadcast
 # - broadcast.msg      => mensagem que sera enviada para todo o servidor, quando um player comprar um item na loja
-# 
+#
 # Em "buy_details" é a mensagem exibida para o jogador apos a compra de um item
-# 
+#
 # Em "villager" é a configuração do villager
 # - nome => nome do villager
-# 
+#
 # Em "mensagens" é a configuração de algumas mensagens do sistema
-# 
+#
 # Em "config_version" isto é para uso interno do sistema e não deve ser alterado! :D
-# 
+#
 # Em caso de duvidas, voce pode entrar em contato pelo suporte online no site ou por ticket: https://minepag.com/cliente/tickets
-# 
+#
 # Este plugin tem suporte ha o PlaceholderAPI, use a variavel: %minepag_cash%
 # Este plugin tem suporte ha o MVdWPlaceholderAPI, use a variavel: {minepag_cash}
 
@@ -68,7 +68,7 @@ produtos:
   - '&eQuantidade: &f@amount'
   - ''
   broadcast:
-    enable: true
+    enable: false
     msg: '&6[MinePag] &f@player&e comprou &f@item&e no shop!'
 buy_details:
 - ''

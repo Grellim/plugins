@@ -26,6 +26,8 @@ groups:
     - -ancientgates.use.WarpVipPortals
     - extrakits.kit.Inicial
     - crazyauctions.access
+    - ahome.home.usar
+    - ahome.limite.membro
     worlds:
       Survival:
         permissions:
@@ -93,6 +95,7 @@ groups:
     - extrakits.kit.Empreendedor
     - crazyauctions.sell.5
     - crazyauctions.bid.3
+    - ahome.bypass.delay
     inheritance:
     - Doador
   Socio:
@@ -108,6 +111,7 @@ groups:
     - extrakits.kit.Socio
     - crazyauctions.sell.8
     - crazyauctions.bid.5
+    - ahome.homepublica.usar
     inheritance:
     - Empreendedor
   Financiador:
@@ -125,6 +129,7 @@ groups:
     - ChestShop.shop.*
     - crazyauctions.sell.15
     - crazyauctions.bid.8
+    - ahome.limite.vip
     inheritance:
     - Socio
   Empresario:
@@ -155,6 +160,7 @@ groups:
     - essentials.tptoggle
     - -extrakits.kit.Empresario
     - extrakits.kit.Genrente
+    - ahome.limite.staff
     inheritance:
     - Empresario
   Ajudante:
@@ -163,6 +169,7 @@ groups:
       rank: '9'
     permissions:
     - craftingframes.use
+    - ahome.bypass.delay
     - authme.vip
     - ancientgates.list
     - ancientgates.tofrom
@@ -217,6 +224,7 @@ groups:
       rank: '11'
     permissions:
     - ancientgates.*
+    - ahome.limite.staff
     - authme.admin.*
     - ChestShop.admin
     - company.admin

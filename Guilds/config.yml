@@ -13,18 +13,13 @@
 #                     IMPORTANT INFORMATION                 #
 #-----------------------------------------------------------#
 
-# This is used to determine what version of the config you are using.
-# Please do not change this as it may cause issues with your config.
-version: 21
+# DO NOT CHANGE THIS
+version: 17
 
-# This will automatically move your current config to "config-old.yml" and replace with a new, updated, "config.yml".
-# If you ever get tired of your config being moved, just change this to "false".
 auto-update-config: true
 
-# This is used for the Guild's Announcement System, which allow me (The Author) to communicate to you guys without updating.
-# The way this works is very simple. If you have "console" set to "true", you will see the announcement when the server starts.
-# If you have "in-game" set to "true", your OPed players will see it the first time they login to the server.
-# OPed players will only be notified on the first time they login after each server reboot.
+# Get the latest plugin announcements. Console = In your console. In-Game = To in-game OPs on login.
+
 announcements:
   console: true
   in-game: true
@@ -33,23 +28,21 @@ announcements:
 #                     Hooks Configuration                   #
 #-----------------------------------------------------------#
 
-# Hooks will control what the plugin can hook into.
-# For Guild Claims to work, you MUST have WorldGuard installed & the WorldGuard Hook enabled.
+# Hooks will control what the plugin can hook into. For example:
+# Enabling the worldguard hook will make it check if PVP is allowed in a region before doing damage.
 # If you change a hook to true and don't actually have the plugin, it may throw errors.
-# Note on the NameTagEdit Hook: They may not all look the best if someone has a long guild name / username.
+
+# Note on the NameTagEdit Hook: They may not all look the best if someone has a long Guild Name / User Name.
 # It will allow 16 characters before the user's Username.
+
 hooks:
   worldguard: false
   nametagedit: false
-  serverlistplus: false
 
-# If you are using DiscordSRV, us enable this hook. When you are toggled in /guild chat, it will not send the messages
-# to the discord
+# You can also use {prefix} in this.
 
-# This allows you to configure how nametags will work in game with NameTagEdit.
-# You can also display a guild's prefix by using {prefix} instead of {guild}.
 nametagedit:
-  name: "&7[&b{guild}&7]&r "
+  name: ""
 
 #-----------------------------------------------------------#
 #                     CHOOSE YOUR LANGUAGE                  #
@@ -58,10 +51,7 @@ nametagedit:
 # Choosing your language for the plugin couldn't be easier! The default language is english.
 # Not an english server? No worries, you can choose from the following list of languages that we currently support.
 # If you speak another language but don't see it here, feel free to submit it via one of the links above to have it added to the plugin.
-# NOTE: If you change your language please ONLY use from the list above and use them EXACTLY as they are spelled in the list above.
-# Example: If I am a french server, I would change lang: english to lang: french
-# If you try and use a different language than any in the list above, the plugin will not function in a normal manner.
-lang: english
+lang: portuguese
 # The plugin also supports the following other languages:
 # - chinese
 # - dutch
@@ -80,52 +70,51 @@ lang: english
 # - german
 # - vietnamese
 # - norwegian
-# - italian
 
-#-----------------------------------------------------------#
-#                     Command Descriptions                  #
-#-----------------------------------------------------------#
 
-# This allows you to modify how /guild help look in-game.
-# This is mainly towards those who aren't English speaking servers.
-# This allows you to fully translate commands to your own language.
+# NOTE: If you change your language please ONLY use from the list above and use them EXACTLY as they are spelled in the list above.
+# Example: If I am a french server, I would change lang: english to lang: french
+# If you try and use a different language than any in the list above, the plugin will not function in a normal manner.
+
+# You can modify how commands look like /guild help by simply configuring to a different language / style below
+
 commands:
   description:
-    accept: "Accept a guild invite"
-    admin: "Admin command for managing guilds"
-    ally: "Ally commands"
-    boot: "Kick a player from your guild"
-    bank: "Use your guild bank"
-    buff: "Buy buffs for your guild"
-    bugreport: "Submit a bug report"
-    cancel: "Cancel an action"
-    chat: "Send a message to your guild members"
-    check: "Check pending guild invites"
-    claim: "Claim land for your guild"
-    confirm: "Confirm an action"
-    create: "Create a guild"
-    decline: "Decline a guild invite"
-    delete: "Delete your current guild"
-    demote: "Demote a member of your guild"
-    give: "Give a player different rewards inside the plugin"
-    help: "View all commands"
-    home: "Teleport to your guild home"
-    info: "View your guild's info"
+    accept: "Aceitar convite de guild"
+    admin: "Comando para administradores administrar os guilds"
+    ally: "Comandos para Ally"
+    boot: "Kick um jogador de sua Guild"
+    bank: "Banco de sua guild"
+    buff: "Comprar Buff para sua Guild"
+    bugreport: "Enviar Um Report De Bug do Guil"
+    cancel: "Cancelar Ação"
+    chat: "Mandar mensagens para os membros da sua Guild"
+    check: "Checar convites de Guild"
+    confirm: "Confirmar ação"
+    create: "Criar Guild"
+    decline: "Recusar pedido de Guild"
+    delete: "Deletar sua Guild atual"
+    demote: "Demotar um membro de sua Guild"
+    give: "Da uma diferente recompensa por usar o plugin"
+    help: "Ver todos os comandos"
+    home: "Telportar para a Guild Home"
+    info: "Ver informações sobre sua Guild"
     inspect: "Inspect another guild"
-    invite: "Invite a player to your guild"
-    leave: "Leave your current guild"
-    list: "List all guilds on the server"
-    prefix: "Change your guild's prefix"
-    promote: "Promote a member of your guild"
-    reload: "Reload guild's configuration file"
-    sethome: "Set your guild's home"
-    status: "Toggle your guild public / private"
-    transfer: "Transfer your guild to another user"
-    unclaim: "Remove your guild claim!"
+    invite: "Convida jogadores a sua Guild"
+    leave: "Sai da sua Guild atual"
+    leaderboard: "Ve todos os Guilds mais tops do servidor"
+    list: "Lista todos os Guilds do servidor"
+    prefix: "Muda a prefix do seu Guild"
+    promote: "Promove um membro de sua Guild"
+    reload: "Reinicia o plugin"
+    sethome: "Seta a Guild home"
+    status: "Aparecer Guild publico/privado"
+    transfer: "Transfere seu Guild para outro jogador"
     update: "Update to the most recent version of guilds"
-    upgrade: "Upgrade your guild to a higher level"
-    vault: "Open your guild vault"
-    version: "Plugin info / version"
+    upgrade: "Upa para um nivel mais forte de Guilds"
+    vault: "Abre seu Guild vault"
+    version: "Plugin informação / versão"
+
 
 #-----------------------------------------------------------#
 #              Rewards / Tickets Configuration              #
@@ -139,7 +128,8 @@ commands:
 rewards-enabled: true
 upgrade-ticket:
   name: "&bGuild Upgrade Ticket"
-  lore: "&dRight click this ticket to upgrade your guild tier!"
+  lore: "&dBotão direito para upar!"
+
 
 #-----------------------------------------------------------#
 #                     GUI CONFIGURATION                     #
@@ -149,8 +139,8 @@ upgrade-ticket:
 # As stated above, the name here such as list and info will modify data inside that commands GUI.
 # If your server's language is not english, you will need to manually modify these to your server's language and they will display in the GUI as your new input.
 
-# The "display" section allows you to choose which parts you want to display in /guild list.
-# For example: If I didn't want to display the members, I could change that to "false".
+
+# This section controls what shows in the "/guild list" command.
 display:
   name: true
   prefix: true
@@ -161,36 +151,33 @@ display:
   member-count: true
   members: true
 
-# The "list" section allows you to choose how the /guild list is styled.
-# You can change the colors, and the language of all parts of the guild list GUI.
 list:
-  name: "&cGuild Name: "
-  prefix: "&aGuild Prefix: "
-  master: "&8Guild Master: "
-  guildstatus: "&3Guild Status: "
+  name: "&cNome Da Guild: "
+  prefix: "&aPrefix Da Guild: "
+  master: "&8Master Da Guild: "
+  guildstatus: "&3Status Da Guild: "
   guildtier: "&fGuild Tier: "
-  guildbalance: "&dGuild Balance: "
-  member-count: "&6Member Count: "
-  members: "&5Members: "
+  guildbalance: "&dDinheiro Da Guild: "
+  member-count: "&6Conta Do Membro: "
+  members: "&5Membros: "
 
-# The "info" section allows you to choose how information in /guild info is displayed to users.
-# You can change the colors, and the language of all parts of the guild info GUI.
 info:
-  balance: "Bank Balance: "
-  deaths: "Deaths: "
+  balance: "Banco Balanço: "
+  deaths: "Mortes: "
   guildname: "Guild: "
   guildstatus: "Status: "
   guildtier: "Tier: "
-  info: "Information: "
-  kills: "Kills: "
+  info: "Informação: "
+  kills: "Eliminações: "
   master: "Master: "
-  max-balance: "Max Balance: "
-  member-count: "Member Count: "
-  members: "Members In Guild: "
-  money: "Money: "
-  playername: "Name: "
+  max-balance: "Dinheiro Maximo: "
+  member-count: "Conta do Membro: "
+  members: "Membros Na Guild: "
+  money: "Dinheiro: "
+  playername: "Nome: "
   prefix: "Prefix: "
   role: "Role: "
+
 
 # This part controls what is shown as the inventory name for things such as Guild List and Guild Vaults.
 gui-name:
@@ -198,11 +185,11 @@ gui-name:
   info: "Guild Info"
   buff: "Guild Buffs"
   list:
-    name: "Guild List"
-    next-page: "Next Page"
-    previous-page: "Previous Page"
-    page: "Page: "
-    head-name: "{player}'s Guild"
+    name: "Guild Lista"
+    next-page: "Proxima Pagina"
+    previous-page: "Ver pagina"
+    page: "Pagina: "
+    head-name: "{player} Guild"
 # head-name is what show's when you hover over a head in the Guild List. For example, the default will show Username's Guild
 
 #-----------------------------------------------------------#
@@ -211,106 +198,93 @@ gui-name:
 
 # In this section of the config, you can modify the buff name, price, time, and amplifier (Haste 1, 2 ,3 4, etc).
 # The current will give Haste 2, Speed 2, etc with "1". If you make it "2", it'll change it to 3, and so on.
+# Changing "use-guild-bank" to true will use a Guild's Bank Balance to buy buffs.
 
-# Do you want disable the ability to buy multiple buffs at once?
 disable-buff-stacking: true
-
-# Do you want to use a guild's bank balance for buying the buffs?
 use-guild-bank: false
 
-# In this section you can modify the name of all the buffs, allowing you to have cool, custom names!
-# The price is all in a dollar amount.
-# The time is in seconds, so , haste: 60 is seconds.
 buff:
   name:
-    haste: "Substance of the Redmod Graff"
-    speed: "Blessing of the Cheetah"
-    fire-resistance: "Scales of the Dragon"
-    night-vision: "Eyes of the Lurking Demon"
-    invisibility: "Feet of the Ghostly Walker"
-    strength: "Mighty Strength of the Pouncing Lion"
-    jump: "Bounce of the Quick Witted Rabbit"
-    water-breathing: "Lungs of the Albino Shark"
-    regeneration: "Integrity of the Mystic Witch"
+    haste: "Substância do Redmod Graff"
+    speed: "Bênção da Chita"
+    fire-resistance: "Escamas do Dragão"
+    night-vision: "Olho do Demónio Espreitadela"
+    invisibility: "Pés do caminhante fantasma"
+    strength: "Força Poderosa do Leão Pouncing"
+    jump: "Pulo do Coelho"
+    water-breathing: "Pulmões do tubarão albino"
+    regeration: "Integridade da bruxa mística"
   price:
-    haste: 60
-    speed: 60
-    fire-resistance: 60
-    night-vision: 60
-    invisibility: 60
-    strength: 60
-    jump: 60
-    water-breathing: 60
-    regeneration: 60
+    haste: 3500
+    speed: 7000
+    fire-resistance: 3000
+    night-vision: 4000
+    invisibility: 6000
+    strength: 7500
+    jump: 6500
+    water-breathing: 1200
+    regeration: 3400
   time:
-    haste: 60
-    speed: 60
-    fire-resistance: 60
-    night-vision: 60
-    invisibility: 60
-    strength: 60
-    jump: 60
-    water-breathing: 60
-    regeneration: 60
+    haste: 120
+    speed: 120
+    fire-resistance: 120
+    night-vision: 120
+    invisibility: 120
+    strength: 120
+    jump: 120
+    water-breathing: 120
+    regeration: 120
   amplifier:
-    haste: 1
-    speed: 1
-    fire-resistance: 1
-    night-vision: 1
-    invisibility: 1
-    strength: 1
-    jump: 1
-    water-breathing: 1
-    regeneration: 1
-  icon:
-    haste: "FEATHER"
-    speed: "SUGAR"
-    fire-resistance: "BLAZE_POWDER"
-    night-vision: "REDSTONE_TORCH_ON"
-    invisibility: "EYE_OF_ENDER"
-    strength: "DIAMOND_SWORD"
-    jump: "DIAMOND_BOOTS"
-    water-breathing: "BUCKET"
-    regeneration: "EMERALD"
+    haste: 2
+    speed: 2
+    fire-resistance: 2
+    night-vision: 2
+    invisibility: 2
+    strength: 2
+    jump: 2
+    water-breathing: 2
+    regeration: 2
   description:
-    price: "&bPrice: "
-    length: "&bLength of Buff: "
+    price: "&bPreço: "
+    length: "&bComprimento de Buff: "
     haste:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bmining speed for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bvelocidade de mineração por um certo período de tempo."
     speed:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bmovement speed for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bvelocidade de movimento por um certo período de tempo."
     fire-resistance:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bfire resistance for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&resistência ao fogo por um certo período de tempo."
     night-vision:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bnight vision for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bvisão noturna por um certo período de tempo."
     invisibility:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&binvisibility for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&binvisibilidade por um certo período de tempo."
     strength:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bstrength for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bforça por um certo período de tempo."
     jump:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bjump for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bsalte por um certo período de tempo."
     water-breathing:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bwater-breathing for a certain amount of time."
-    regeneration:
-    - "&bThis buff will allow you and your"
-    - "&bGuild Members to obtain increased"
-    - "&bregeneration for a certain amount of time."
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&brespiração por água por um certo período de tempo."
+    regeration:
+    - "&bEste buff permitirá que você e seu"
+    - "&bMembros da Guild obtenha"
+    - "&bregeneração por um certo período de tempo."
+
+
 
 #-----------------------------------------------------------#
 #                     Vault Configuration                   #
@@ -323,48 +297,15 @@ require-money: false
 
 # Uncomment the lines below if you have Vault + an economy plugin and have change the option above to true.
 # You can define how much it costs for users to create a guild, the cost option, and you can define how much it costs for users to set a guild home.
+
 Requirement:
   cost: 0
-  sethome-cost: 0
+  sethome-cost: 5000
 
-# This section allows you to reward players for killing others!
-# Players will only get money from players they kill in OTHER guilds (to help prevent abuse).
 reward-on-kill:
-  enabled: true
+  enabled: false
   reward: 10
   take-from-killed-player: 10
-
-#-----------------------------------------------------------#
-#                  Guild Claims Configuration               #
-#-----------------------------------------------------------#
-# This section of the config will allow you to handle guild land claiming.
-# Remember that the enable / disable for this is the WorldGuard Hook at the TOP of the config.
-# There are multiple options when it comes to guild claims. For the time being, all guilds will only get one claim.
-# As a server owner, you will have a few options here.
-# First off, you will have the ability to have a standard set claim size.
-# There is an option you can modify if you want players to be able to set their own claim size.
-# Don't worry, you will be able to modify the max claim size to prevent abuse.
-# Prices for guilds will be based up each section of blocks they claim with the region.
-# For example: If I want a 25x25 claim, I'd do /guild claim 25 and I'd be charged 25 * price you set.
-
-# Would you like to disable guild claiming in specific worlds?
-disabled-worlds:
--
-
-# Would you like to allow players to set their own claim size?
-custom-claim-size: false
-
-# You can set the max size for the claim size, so players can't take some absurd amount
-custom-max-claim-size: 100
-
-# Here you can set the custom price for claiming with custom regions (read above to see how it works)
-custom-claim-price: 10.00
-
-# Here you can set the regular max claim size when you aren't allowing custom claims
-regular-claim-size: 100
-
-# Here you can set the price for regular claims when you aren't allowing custom claims
-regular-claim-price: 100.00
 
 #-----------------------------------------------------------#
 #                     Title Configuration                   #
@@ -381,35 +322,36 @@ titles:
   enabled: false
   events:
     guild-creation:
-      title: "Congrats"
-      sub-title: "{guild} has been created!"
+      title: "Sucesso"
+      sub-title: "{guild} Foi Criada!"
       fade-in: 3
       stay: 3
       fade-out: 3
     player-joins-guild:
       title: ""
-      sub-title: "{username} has just joined the guild."
+      sub-title: "{username} entrou na Guild!."
       fade-in: 3
       stay: 3
       fade-out: 3
     player-leaves-guild:
       title: ""
-      sub-title: "{username} has just left the guild."
+      sub-title: "{username} saiu da Guild."
       fade-in: 3
       stay: 3
       fade-out: 3
     guild-prefix-change:
       title: "Congrats"
-      sub-title: "Your new prefix is {prefix}"
+      sub-title: "Sua nova prefix é {prefix}"
       fade-in: 3
       stay: 3
       fade-out: 3
     guild-tier-upgrade:
       title: "Success!"
-      sub-title: "Your guild is now Tier {tier}"
+      sub-title: "Sua Guild é Tier {tier}"
       fade-in: 3
       stay: 3
       fade-out: 3
+
 
 #-----------------------------------------------------------#
 #                     Guild Upgrade Configuration           #
@@ -429,9 +371,6 @@ titles:
 #   mob-xp-multiplier: 4
 #   damage-multiplier: 4
 #   max-bank-balance: 40000
-#   permissions:
-#    - "example.permission.one"
-#    - "example.permission.two"
 
 # Keep in mind for the damage-multiplier, it applies to players also, so by default it's set to normal for every tier to allow you
 # to choose how it will work.
@@ -440,35 +379,35 @@ titles:
 
 max-number-of-tiers: 3
 use-bank-balance: false
-carry-over-perms: true
 
 tier1:
   name: "Bronze"
-  cost: 0
+  cost: 20000
   max-members: 15
   mob-xp-multiplier: 1
   damage-multiplier: 1
-  max-bank-balance: 10000
-  permissions:
-    -
+  max-bank-balance: 100000
+  use-buffs: true
+  use-vault: true
 tier2:
-  name: "Silver"
-  cost: 200
+  name: "Prata"
+  cost: 50000
   max-members: 30
   mob-xp-multiplier: 2
   damage-multiplier: 1
-  max-bank-balance: 20000
-  permissions:
-    -
+  max-bank-balance: 200000
+  use-buffs: true
+  use-vault: true
 tier3:
-  name: "Gold"
-  cost: 300
+  name: "Ouro"
+  cost: 75000
   max-members: 50
   mob-xp-multiplier: 3
   damage-multiplier: 1
-  max-bank-balance: 30000
-  permissions:
-    -
+  max-bank-balance: 300000
+  use-buffs: true
+  use-vault: true
+
 
 #-----------------------------------------------------------#
 #                     Community Server List                 #
@@ -491,7 +430,6 @@ plugin-prefix: "&a[Guilds]"
 # Disable this to remove guild names showing next to a player in "TabList"
 tablist-guilds: true
 
-# Would you like to display a user's displayname instead of their MC username?
 tablist-use-display-name: false
 
 # Change how the Prefixes in the TabList show!
@@ -503,7 +441,7 @@ tablist: "&7[&b{guild}&7]&r"
 guild-signs: true
 
 # Here you can modify how the /guild chat message style works.
-guild-chat-format: "&7&l[Guild Chat]&r &b[{role}] %s: %s"
+guild-chat-format: "&7&l[Guild]&r &b[{role}] %s: %s"
 
 # Change this to true if you want to allow players in the same guild / guild's that are allies with each other to damage each other.
 allow-guild-damage: false
@@ -537,34 +475,31 @@ name:
 # To turn off the ability for colored names change the regex to "^[a-zA-Z0-9]*$"
   regex: "^[a-zA-Z0-9&]*$"
 
-# This will automatically prevent players from making a guild if it contains anything in the list below.
-# Note: Capitalization doesn't matter. I can put "crap" and Crap cRaP, etc, will be blocked.
-# Note: Also, it'll sense stuff such as "PieceofCrap", hopefully making it easier for you to make the blacklist.
-enable-blacklist: true
-
-blacklist:
-  - "crap"
-  - "ass"
-  - "stupid"
-
 prefix:
 # With the default Regex currently set, the minimum length of the prefix is 1 and the maximum is 20.
 # To change this, adjust the numbers and maybe have a look at the link above (RegEx).
 # To turn off the ability for colored prefixes change the regex to "[a-zA-Z0-9]{1,20}"
   regex: "[a-zA-Z0-9&]{1,20}"
 
+# KEEP THIS DISABLED. IT WILL BREAK THE PLUGIN.
+scoreboard:
+  enable: false
+  friendly-fire: false
+
+  see-invisible: true
 
 # There are lots of options when it comes to configuring the roles. We have NOT (yet) experience with adding new ranks, so if it breaks, do not be surprised.
 # You can change individual perms for each rank but please DO NOT modify the order in which they go along with the numbers such as 0, 1 ,2, 3, etc.
 
 roles:
   0:
-    name: "GuildMaster"
+    name: "Master"
     permissions:
       activate-buff: true
       add-ally: true
       ally-chat: true
       change-home: true
+      change-master: true
       change-prefix: true
       chat: true
       demote: true
@@ -579,16 +514,15 @@ roles:
       transfer-guild: true
       upgrade-guild: true
       withdraw-money: true
-      claim-land: true
-      unclaim-land: true
 
   1:
-    name: "Officer"
+    name: "Oficial"
     permissions:
       activate-buff: false
       add-ally: true
       ally-chat: true
       change-home: true
+      change-master: false
       change-prefix: false
       chat: true
       demote: true
@@ -603,15 +537,14 @@ roles:
       transfer-guild: false
       upgrade-guild: false
       withdraw-money: true
-      claim-land: false
-      unclaim-land: false
 
   2:
-    name: "Veteran"
+    name: "Veterano"
     permissions:
       activate-buff: false
       add-ally: false
       ally-chat: true
+      change-master: false
       change-prefix: false
       chat: true
       demote: false
@@ -626,14 +559,13 @@ roles:
       transfer-guild: false
       upgrade-guild: false
       withdraw-money: false
-      claim-land: false
-      unclaim-land: false
   3:
-    name: "Member"
+    name: "Membro"
     permissions:
       activate-buff: false
       add-ally: false
       ally-chat: true
+      change-master: false
       change-prefix: false
       chat: true
       demote: false
@@ -648,8 +580,6 @@ roles:
       transfer-guild: false
       upgrade-guild: false
       withdraw-money: false
-      claim-land: false
-      unclaim-land: false
 
 #-----------------------------------------------------------#
 #                     Storage Configuration                 #

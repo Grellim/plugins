@@ -1,16 +1,19 @@
 #Enabled spawner pickup in worlds - Make sure you are using the EXACT world names!
 enabled_pickup_in_worlds:
-- world
+- Survival
+- Oficial
 
 #Enabled spawner placement in worlds - Make sure you are using the EXACT world names!
 enabled_placement_in_worlds:
-- world
+- Survival
+- Oficial
+- Nether
 
 #Should players be allowed to mine naturally occurring spawners? (e.g. dungeons, blaze towers)
 pickup_natural_spawners: true
 
 #Should spawner changing be allowed using mob eggs?
-spawner_changing: true
+spawner_changing: false
 
 #Should placed spawners be protected from other players?
 spawner_protection: false
@@ -19,13 +22,13 @@ spawner_protection: false
 crouch_mob_spawning: false
 
 #Should Spawners drop from explosions?
-explosion_drop: false
+explosion_drop: true
 
 #What is the chance out of 100, that a spawner will drop from an explosion? (eg: 100 = always, 50 = half the time, 0 = never)
-explosion_chance: 100
+explosion_chance: 30
 
 #Should the GUI act as a spawner shop? (set no to disable all prices and vault dependency)
-gui_shop: true
+gui_shop: false
 
 #Cost of purchasing spawners using the GUI Shop (/ps get) - NOTE: Set cost to -1 to disable spawner from showing up in shop
 bat_spawner_cost: 0

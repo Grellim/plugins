@@ -25,11 +25,11 @@ Home:
   Use_3: "&6[AHome] &7Use: &8/delloja &3[NomeDaHome]&7."
   Home_Fechada: "&6[AHome] &7A home &b{home}&7 não está pública!"
   Permissao_Membro_Limite: "ahome.limite.membro"
-  Max_Home_Membro: 15
+  Max_Home_Membro: 8
   Permissao_VIP_Limite: "ahome.limite.vip"
-  Max_Home_VIP: 25
+  Max_Home_VIP: 20
   Permissao_Staff_Limite: "ahome.limite.staff"
-  Max_Home_Staff: 100
+  Max_Home_Staff: 50
   Alcancou_O_Limite: "&6[AHome] &cLimite de home alcançado - &6{limite}&c."
   #Configuracao DELAY.
   Permissao_Ignorar_Delay: "ahome.bypass.delay"

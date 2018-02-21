@@ -6,7 +6,7 @@
 # even if they give the pay for one action (make the configurations with this in mind)
 # and each job will get the respective experience.
 #
-# e.g If player has 2 jobs where job1 gives 10 income and experience for killing a player 
+# e.g If player has 2 jobs where job1 gives 10 income and experience for killing a player
 # and job2 gives 5 income and experience for killing a player. When the user kills a player
 # they will get 15 income and job1 will gain 10 experience and job2 will gain 5 experience.
 
@@ -19,12 +19,12 @@ Jobs:
     #
     # NOTE: Must be 1 word
     fullname: Woodcutter
-    # Shortened version of the name of the job. Used as a prefix when the user has more 
+    # Shortened version of the name of the job. Used as a prefix when the user has more
     # than 1 job
     shortname: W
-    description: Earns money felling and planting trees  
+    description: Earns money felling and planting trees
     # Full description of job to be shown in job browse command
-    FullDescription: 
+    FullDescription:
     - "&2Get money for:"
     - "  &7Planting trees"
     - "  &7Cutting down trees"
@@ -40,8 +40,8 @@ Jobs:
     max-level: 10
     # [OPTIONAL] - the maximum level of this class with specific permission
     # use jobs.[jobsname].vipmaxlevel, in this case it will be jobs.exampleJob.vipmaxlevel
-    vip-max-level: 20
-    # [OPTIONAL] - the maximum number of users on the server that can have this job at 
+    vip-max-level: 10
+    # [OPTIONAL] - the maximum number of users on the server that can have this job at
     # any one time (includes offline players).
     slots: 1
     # [OPTIONAL] Soft limits will allow to stop income/exp/point payment increase at some particular level but allow further general leveling.
@@ -55,7 +55,7 @@ Jobs:
     #   numjobs - the number of jobs the player has
     #   joblevel - the level the player has attained in the job.
     # NOTE: Please take care of the brackets when modifying this equation.
-    leveling-progression-equation: 10*(joblevel)+(joblevel*joblevel*4)
+    leveling-progression-equation: 2*(joblevel)+(joblevel*joblevel*4)
     # Equation used for calculating how much income is given per action for the job level.
     # Available parameters:
     #   numjobs - the number of jobs the player has
@@ -104,18 +104,18 @@ Jobs:
         Amount: 300
         # Command list to be performed after quest is finished.
         # Use [playerName] to insert players name who finished that quest
-        RewardCommands: 
+        RewardCommands:
         - "money give [playerName] 500"
         - "msg [playerName] Completed quest!"
         # Quest description to be used to explain quest requirements or rewards for player
-        RewardDesc: 
+        RewardDesc:
         - "Break 300 Oak wood"
         - "Get 500 bucks for this"
-        # Defines chance in getting this quest. 
+        # Defines chance in getting this quest.
         # If you have set 10 quests and player can have only 2, then quests with biggest chance will be picked most likely
         # This will allow to have some rare quests with legendary rewards
         Chance: 40
-        # Defines to which job level you want to give out this quest. 
+        # Defines to which job level you want to give out this quest.
         # Keep in mind that player will keep quest even if he is over level limit if he got new one while being under
         # In example: player with level 2 takes quests and levels up to level 5, he still can finish this quest and after next quest reset (check general config file) he will no longer have option to get this quest
         toLevel: 3
@@ -127,10 +127,10 @@ Jobs:
         Action: Kill
         Target: Zombie
         Amount: 50
-        RewardCommands: 
+        RewardCommands:
         - "money give [playerName] 2000"
         - "msg [playerName] Completed quest!"
-        RewardDesc: 
+        RewardDesc:
         - "Kill 50 zombies"
         - "Get 2000 for this!"
       3:
@@ -138,10 +138,10 @@ Jobs:
         Action: Smelt
         Target: "COOKED_CHICKEN"
         Amount: 20
-        RewardCommands: 
+        RewardCommands:
         - "money give [playerName] 300"
         - "msg [playerName] Completed quest!"
-        RewardDesc: 
+        RewardDesc:
         - "Cook some chicken breasts"
         - "Get 300 for this!"
     ########################################################################
@@ -158,7 +158,7 @@ Jobs:
     # To get a list of all available block types, check the
     # bukkit JavaDocs for a complete list of block types
     # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
-    # 
+    #
     # For kill tags (Kill and custom-kill), the name is the name of the
     # mob.
     # Available mobs:
@@ -200,15 +200,15 @@ Jobs:
     #   Witch
     #   Wither
     #   Wolf
-    #   Zombie  
+    #   Zombie
     #   ZombieVillager
     #   ZombieHusk
-    #       
+    #
     #
     # NOTE: mob names are case sensitive.
     #
     # For custom-kill, it is the name of the job (also case sensitive).
-    # 
+    #
     # NOTE: If a job has both the pay for killing a player and for killing a
     # specific class, they will get both payments.
     ########################################################################
@@ -222,7 +222,7 @@ Jobs:
         points: 5.0
         # base experience
         experience: 5.0
-        # (OPTIONAL) from which level of this job player can get money for this action  
+        # (OPTIONAL) from which level of this job player can get money for this action
         # if not given, then player will always get money for this action
         # this can be used for any action
         from-level: 1
@@ -238,11 +238,11 @@ Jobs:
         experience: 5.0
     # payment for placing a block
     Place:
-      SAPLING: 
+      SAPLING:
         income: 1.0
         points: 1.0
         experience: 1.0
-      WOOD: 
+      WOOD:
         income: 2.0
         points: 2.0
         experience: 2.0
@@ -284,7 +284,7 @@ Jobs:
         experience: 5
       baked_potato:
         income: 5
-        experience: 5    
+        experience: 5
     # Milking cows, only one option is available
     Milk:
       Cow:
@@ -300,51 +300,51 @@ Jobs:
         experience: 5.0
       Blue:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Brown:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Cyan:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Gray:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Green:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Light_blue:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Lime:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Magenta:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Orange:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Pink:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Purple:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Red:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Silver:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       White:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
       Yellow:
         income: 2.0
-        experience: 5.0 
+        experience: 5.0
     # dyeing armor
-    Dye:    
+    Dye:
       LEATHER_BOOTS:
         income: 1.0
         experience: 1.0
@@ -459,7 +459,7 @@ Jobs:
         - p:essentials.notnoob
         perform:
         # p marks permission, player will get if given true value, if used false, permission will be taken
-        - p:essentials.fly-true        
+        - p:essentials.fly-true
     # Commands executed when player reached level
     commands:
       # command name, just to have better idea what this do
@@ -1145,11 +1145,11 @@ Jobs:
       Id: 290
       Data: 0
     Tame:
-      Wolf: 
+      Wolf:
         income: 5.0
         points: 5.0
         experience: 5.0
-      Horse: 
+      Horse:
         income: 5.0
         points: 5.0
         experience: 5.0
@@ -1194,63 +1194,63 @@ Jobs:
       Orange:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Yellow:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Green:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Blue:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       'Light Blue':
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Magenta:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Pink:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       White:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       'Light Gray':
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Black:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Brown:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Purple:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Cyan:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       Gray:
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
       'Lime Green':
         income: 4.0
         points: 4.0
-        experience: 5.0 
+        experience: 5.0
     Milk:
       Cow:
         income: 5.0
@@ -1492,7 +1492,7 @@ Jobs:
     rejoinCooldown: 10
     Gui:
       Id: 301
-      Data: 0    
+      Data: 0
     Explore:
       1:
         income: 5.0
@@ -1533,7 +1533,7 @@ Jobs:
     rejoinCooldown: 10
     Gui:
       Id: 61
-      Data: 0  
+      Data: 0
     Craft:
       '280':
         income: 0.1

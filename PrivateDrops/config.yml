@@ -1,6 +1,6 @@
 options:
-  seconds-until-public: 10
+  seconds-until-public: 45
   enabled-worlds:
-  - world1
-  - world2
-  - world3
+  - Survival
+  - Oficial
+  - Minerar

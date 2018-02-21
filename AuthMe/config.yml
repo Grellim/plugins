@@ -274,7 +274,7 @@ settings:
         # CONFIRMATION = must repeat first argument (pass or email)
         # EMAIL_OPTIONAL = for password register: 2nd argument can be empty or have email address
         # EMAIL_MANDATORY = for password register: 2nd argument MUST be an email address
-        secondArg: 'CONFIRMATION'
+        secondArg: 'EMAIL_MANDATORY'
         # Do we force kick a player after a successful registration?
         # Do not use with login feature below
         forceKickAfterRegister: false
@@ -330,23 +330,23 @@ GroupOptions:
     unregisteredPlayerGroup: ''
 Email:
     # Email SMTP server host
-    mailSMTP: 'smtp.gmail.com'
+    mailSMTP: 'a2plcpnl0659.prod.iad2.secureserver.net'
     # Email SMTP server port
     mailPort: 465
     # Only affects port 25: enable TLS/STARTTLS?
     useTls: true
     # Email account which sends the mails
-    mailAccount: ''
+    mailAccount: 'no-reply@atosmc.com'
     # Email account password
-    mailPassword: ''
+    mailPassword: 'mail321@'
     # Email address, fill when mailAccount is not the email address of the account
-    mailAddress: ''
+    mailAddress: 'no-reply@atosmc.com'
     # Custom sender name, replacing the mailAccount name in the email
-    mailSenderName: ''
+    mailSenderName: 'AtosMC'
     # Recovery password length
     RecoveryPasswordLength: 8
     # Mail Subject
-    mailSubject: 'Your new AuthMe password'
+    mailSubject: 'Sua senha AtosMC'
     # Like maxRegPerIP but with email
     maxRegPerEmail: 1
     # Recall players to add an email?
@@ -359,7 +359,7 @@ Email:
     # Whitelist ONLY these domains for emails
     emailWhitelisted: []
     # Send the new password drawn in an image?
-    generateImage: false
+    generateImage: true
     # The OAuth2 token
     emailOauth2Token: ''
 Hooks:
@@ -411,7 +411,7 @@ Purge:
     # Do we need to remove the Essentials/userdata/player.yml file during purge process?
     removeEssentialsFile: false
     # World in which the players.dat are stored
-    defaultWorld: 'world'
+    defaultWorld: 'Oficial'
     # Remove LimitedCreative/inventories/player.yml, player_creative.yml files during purge?
     removeLimitedCreativesInventories: false
     # Do we need to remove the AntiXRayData/PlayerData/player file during purge process?
