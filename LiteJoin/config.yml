@@ -18,22 +18,22 @@ Settings:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fSeu inventário foi limpo.'
+    message: '&fSeu inventário foi limpo.'
   ResetExperience:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fSeu nível de expiração foi limpo.'
+    message: '&fSeu nível de expiração foi limpo.'
   Heal:
     enable: false
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fVocê foi curado.'
+    message: '&fVocê foi curado.'
   Feed:
     enable: true
     needPerms: false
     sendMessage: false
-    message: '&a[LJ] &fSua fome ficou satisfeita.'
+    message: '&fSua fome ficou satisfeita.'
   WelcomeMessage:
     enable: true
     needPerms: false
@@ -58,24 +58,24 @@ Settings:
     enable: true
     needPerms: false
     time: 10
-    message: '&a[LJ] &fVocê está protegido de danos por 10 segundos'
-    endMessage: '&a[LJ] &fProteção acabou.'
+    message: '&fVocê está protegido de danos por 10 segundos'
+    endMessage: '&fProteção acabou.'
   Flight:
     enable: true
     needPerms: true
     justAllowRise: false
     sendMessage: true
-    message: '&a[LJ] &fVoo ativo.'
+    message: '&fVoo ativo.'
   Glow:
     enable: false
     needPerms: false
     sendMessage: true
-    message: '&a[LJ] &fAgora você brilha.'
+    message: '&fAgora você brilha.'
   Concealment:
     enable: false
     needPerms: true
     sendMessage: true
-    message: '&a[LJ] &fVocê estava escondido dos jogadores.'
+    message: '&fVocê estava escondido dos jogadores.'
   JoinEffects:
     enable: false
     removeOldEffects: true
