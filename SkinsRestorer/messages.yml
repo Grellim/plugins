@@ -1,34 +1,33 @@
 SR_LINE: '&7&m----------------------------------------'
-PLAYER_HAS_NO_PERMISSION: '&e[&2SkinsRestorer&e] &4Error&8: &cYou don''t have permission
-  to do this.'
+PLAYER_HAS_NO_PERMISSION: '&e[&2AtosMc&e] &4Error&8: &cVocê não tem permisão
+  para isto!.'
 HELP_PLAYER: |2-
-    &2&lSkinsRestorer &7- &f&lv%ver%
-     &2/skin set <skinname> &7-&f Changes your skin.
-      &2/skin <skinname> &7-&f Shortened version of "/skin set".
-      &2/skin clear &7-&f Clears your skin.
-HELP_SR: '    &2/sr &7- &fDisplay admin commands.'
-NOT_PREMIUM: '&e[&2SkinsRestorer&e] &4Error&8: &cPremium player with that name does
-  not exist.'
-SKIN_COOLDOWN_NEW: '&e[&2SkinsRestorer&e] &4Error&8: &cYou can change your skin again
-  in &e%s &cseconds.'
-SKIN_CHANGE_SUCCESS: '&e[&2SkinsRestorer&e] &2Your skin has been changed.'
-SKIN_CLEAR_SUCCESS: '&e[&2SkinsRestorer&e] &2Your skin has been cleared.'
+    &2&lAtosMc
+     &2/skin set <nomedaskin> &7-&f Mude sua skin.
+      &2/skin <nomedaskin> &7-&f Uma versão mais curta do /skin set".
+      &2/skin clear &7-&f Limpar sua skin (voltar com éra antes).
+HELP_SR: '    &2/sr &7- &fMostrar comandos adm.'
+NOT_PREMIUM: '&e[&rAtosMc&e] &4Erro&8: &cEste jogador não tem uma conta original!.'
+SKIN_COOLDOWN_NEW: '&e[&2AtosMc&e] &4Error&8: &cVocê pode mudar sua skin novamente
+  eme%s &csegundos!.
+SKIN_CHANGE_SUCCESS: '&e[&2Atosmc]&2Skin alterada
+SKIN_CLEAR_SUCCESS: '&e[&2AtosMc&e] &2Sua skin foi alterada!.'
 HELP_ADMIN: |2-
     &2&lSkinsRestorer &7- &f&lv%ver% &c&lAdmin
 
      &2/sr config &7- &fhelp page for usefull in game config settings
-      &2/sr set <player> <skin name> &7- &fChanges the skin of a player..
-      &2/sr drop <player> &7- &fDrops player skin data.
-      &2/sr reload &7- &fReloads the config and locale
-      &2/sr props [player] &7- &fDisplays the players actual skin as properties
-ADMIN_SET_SKIN: '&e[&2SkinsRestorer&e] &2You set %player''s skin.'
-NOT_ONLINE: '&e[&2SkinsRestorer&e] &4Error&8: &cPlayer is not online!'
+      &2/sr set <player> <skin name> &7- &fMudar a skin do jogador..
+      &2/sr drop <player> &7- &fDrops dos dados da skin do jogador
+      &2/sr reload &7- &fReiniciar a configuração e a data
+      &2/sr props [player] &7- &fExibe a skin real dos jogadores como propriedades
+ADMIN_SET_SKIN: '&e[&2AtosMc&e] &2Você setou a skin de %player%.'
+NOT_ONLINE: '&e[&2AtosMc&e] &4Error&8: &cJogador não online!!'
 SKIN_DATA_DROPPED: '&e[&2SkinsRestorer&e] &2Skin data for player %player dropped.'
 RELOAD: '&e[&2SkinsRestorer&e] &2Config and Locale has been reloaded!'
 HELP_CONFIG: |2-
     &2&lSkinsRestorer &7- &c&lConfig
 
-     &2/sr joinSkins <true/false> &7- &fToggles the skins on join.
+     &2/sr joinSkins <true/false> &7- &fAlterna a skin ao entrar.
       &2/sr SkinWithoutPerm <true/false> &7- &fConfigures the DisabledSkins section.
       &2/sr SkinExpiresAfter <time> &7- &fHow long the a skin is cached.
       &2/sr skinCooldown <time> &7- &f/skin cooldown in minute(s).
